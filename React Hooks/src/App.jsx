@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import React,{ useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Hook from './components/Hook';
+import Counter from './components/Counter';
 
 function App() {
   let [counter,setCounter] = useState(0);
@@ -24,7 +24,8 @@ function App() {
         <br />
         <button onClick={decValue}>Remove</button>
       </div> */}
-      <Hook />
+      {/* <Hook /> */}
+      <Counter />
     </>
   )
 }
