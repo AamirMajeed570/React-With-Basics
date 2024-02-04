@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Hook from './components/Hook';
 import Counter from './components/Counter';
+import Plus from './components/Plus';
 
 function App() {
   let [counter,setCounter] = useState(0);
@@ -25,7 +26,8 @@ function App() {
         <button onClick={decValue}>Remove</button>
       </div> */}
       {/* <Hook /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Plus />
     </>
   )
 }
