@@ -1,6 +1,6 @@
 
 import './App.css'
-import config from './config/config';
+import conf from './config/conf';
 
 function App() {
   // console.log(config.appwriteUrl)
