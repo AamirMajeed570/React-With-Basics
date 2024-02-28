@@ -1,0 +1,20 @@
+table{
+    border: 2px solid green;
+    background-color: rgb(7, 43, 57);
+    color: white;
+    /* padding: 12px 12px; */
+    width: 30vw;
+    height: 30vh;
+}
+table thead tr{
+    margin: 10px;
+    font-size: 30px;
+}
+table td{
+    color: white;
+}
+td , tr{
+    border: 1px solid;
+    text-align: left;
+    padding: 12px;
+}
