@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    border: 2px solid red;
+    height: 8vh;
+    padding: 10px 12px;
+    background-color: #302626;
+    color: wheat;
+}
+ul{
+    display: flex;
+    /* gap: 34px; */
+    font-size: larger;
+}
+ul li{
+    padding: 10px 12px;
+    list-style-type: none;
+
+}
