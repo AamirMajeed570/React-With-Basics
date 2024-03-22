@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./App.css";
+import Conditional from "./components/Conditional";
+import Exercise from "./components/Exercise";
 
 function App() {
   const [arr, setArr] = useState(["Play Cricket", "Play Football", "Read Book"]);
@@ -13,7 +15,9 @@ function App() {
   return (
     <>
       <div>
-        <h1>Array Mock Problem</h1>
+        <Exercise />
+        {/* <Conditional /> */}
+        {/* <h1>Array Mock Problem</h1>
         {arr.map((item, index) => {
           return (
             <ul className="ul" key={index}>
@@ -21,7 +25,8 @@ function App() {
               <button onClick={() => handleDelete(index)}>X</button>
             </ul>
           );
-        })}
+        })} */}
+
       </div>
     </>
   );
