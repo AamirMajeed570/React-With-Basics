@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Conditional from "./components/Conditional";
 import Exercise from "./components/Exercise";
+import { Event } from "./components/Event";
 
 function App() {
   const [arr, setArr] = useState(["Play Cricket", "Play Football", "Read Book"]);
@@ -15,7 +16,8 @@ function App() {
   return (
     <>
       <div>
-        <Exercise />
+        <Event />
+        {/* <Exercise /> */}
         {/* <Conditional /> */}
         {/* <h1>Array Mock Problem</h1>
         {arr.map((item, index) => {
