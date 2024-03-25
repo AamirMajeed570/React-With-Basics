@@ -1,0 +1,24 @@
+nav {
+    background-color: #100c0c; /* Background color of the navbar */
+    padding: 10px 0; /* Top and bottom padding */
+    display: flex;
+    width: 100%;
+    height: 10vh;
+  }
+  
+  nav a {
+    color: #fff; /* Text color of the links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Space between links */
+    list-style-type: none;
+    font-size: 30px;
+    margin: 12px 15px;
+  }
+
+  
+  nav li {
+    display: flex; /* Display links horizontally */
+    /* list-style-type: none; Remove bullet points from list */
+    
+  }
+  
