@@ -9,7 +9,7 @@ const Navbar = () => {
           className={(e) => {
             return e.isActive ? "red" : "";
           }}
-          to="/home"
+          to="/"
         >
           <li>Home</li>
         </NavLink>

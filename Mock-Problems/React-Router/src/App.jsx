@@ -9,7 +9,7 @@ import Home from './components/Home';
 function App() {
   const router = createBrowserRouter([
     {
-      path:"/home",
+      path:"/",
       element:<><Navbar /><Home></Home></>
     },
     {
@@ -27,6 +27,7 @@ function App() {
   ])
   return (
     <>
+    <h2>Hello</h2>
       <RouterProvider router={router} />
     </>
   )
