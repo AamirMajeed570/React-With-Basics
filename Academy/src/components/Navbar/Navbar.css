@@ -1,0 +1,83 @@
+.container {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    /* Align navbar items */
+}
+
+.container ul li {
+    display: inline-block;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 22px;
+    /* Adjust font size as needed */
+    letter-spacing: -0.011em;
+    /* Same letter spacing for all links */
+}
+
+.searchbox {
+    position: relative;
+    /* Position relative to place the icon */
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #555;
+    /* Adjust icon color as needed */
+    cursor: pointer;
+}
+
+.searchbox input {
+  width: 240px; /* Set width to match */
+  height: 40px; /* Set height to match */
+  padding: 8px 12px; /* Adjust padding as needed */
+  border: 1px solid #194D37; /* Adjust border properties as needed */
+  border-radius: 4px;
+}
+
+.searchbox input {
+    width: 240px;
+    height: 40px;
+    /* Adjust height as needed */
+    padding: 8px 40px 8px 12px;
+    /* Adjust padding as needed */
+    border: 1px solid #194D37;
+    /* Adjust border properties as needed */
+    border-radius: 4px;
+}
+.logo,
+.courses,
+.contact,
+.events,
+.login,
+.signup {
+    /* Apply consistent styles for these elements */
+    font-family: Montserrat;
+    font-size: 22px;
+    /* Adjust font size as needed */
+    letter-spacing: -0.011em;
+    /* Same letter spacing for all links */
+    padding: 12px 20px;
+    /* Adjust padding as needed */
+    /* border: 1px solid #000000; */
+    /* Adjust border properties as needed */
+    border-radius: 4px;
+    /* Adjust border-radius as needed */
+}
+
+.signup{
+    border: 1px solid #000000;
+}

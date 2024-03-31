@@ -1,0 +1,133 @@
+.testimonals{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+}
+.left-Image {
+    background-image: url(/public/Images/Lamps.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 20px;
+    left: -30px;
+    width: 250px;
+    height: 250px;
+}
+
+.middle-Image {
+    background-image: url(/public/Images/Pen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: -390px;
+    left: 760px;
+    width: 250px;
+    height: 250px;
+}
+
+.middle-right-image {
+    background-image: url(/public/Images/Quran.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100px;
+    height: 87.09px;
+    top: -839px;
+    left: 1056px;
+    opacity: 0px;
+}
+
+.man {
+    background-image: url(/public/Images/Man.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: relative;
+    width: 408px;
+    height: 703px;
+    top: -950px;
+    left: 1152px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.child-Image {
+    background: url(/public/Images/Child.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 646px;
+    height: 756px;
+    top: -1700px;
+    left: -250px;
+    gap: 103px;
+    opacity: 0px;
+
+}
+
+.right-Image {
+    background-image: url(/public/Images/Lamp2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: relative;
+    width: 231.31px;
+    height: 255.51px;
+    top: -1632px;
+    left: 1388px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.knowledge {
+    width: 649px;
+    height: 307px;
+    gap: 16px;
+    opacity: 0px;
+    position: relative;
+    top: -150px;
+    left: 200px;
+    /* //styleName: main heading; */
+}
+
+.knowledge #gaining {
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    text-align: left;
+}
+
+.knowledge #gaining #active {
+    color: #D39C41;
+}
+
+.knowledge #programs {
+    display: inline-block;
+    width: 600px;
+    color: #D69D45;
+    position: relative;
+    top: -70px;
+}
+
+.knowledge button {
+    width: 177px;
+    height: 50px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    color: white;
+    background: #114A37;
+    ;
+    /* Green background color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    position: relative;
+    top: -60px;
+}
