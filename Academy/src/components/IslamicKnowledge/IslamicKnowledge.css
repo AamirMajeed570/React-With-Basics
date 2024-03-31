@@ -105,7 +105,9 @@
     top: -290px;
     left: 150px;
 }
-
+.guides button:hover{
+    transition: margin-right 2s;
+}
 .tahajud {
     background-image: url('/public/Images/Namaz(2).png');
     background-position: right;
