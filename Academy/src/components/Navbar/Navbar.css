@@ -43,7 +43,7 @@
 .searchbox input {
   width: 240px; /* Set width to match */
   height: 40px; /* Set height to match */
-  padding: 8px 12px; /* Adjust padding as needed */
+  padding: 5px; /* Adjust padding as needed */
   border: 1px solid #194D37; /* Adjust border properties as needed */
   border-radius: 4px;
 }
