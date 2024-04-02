@@ -1,0 +1,90 @@
+.top-footer {
+    width: 1160px;
+    height: 371px;
+    top: 5305px;
+    padding: 36px 255px 36px 255px;
+    /* border: 2px solid red; */
+    background-image: url('../../../public/Images/Astagfir.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.top-footer p:nth-child(2) {
+    width: 760px;
+    height: 60px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.011em;
+    text-align: center;
+}
+
+.top-footer p:nth-child(3) {
+    font-family: Amiri;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+.top-footer p:nth-child(4) {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    position: relative;
+    top: -90px;
+}
+
+.bottom-footer {
+    width: 1160px;
+    height: 471px;
+    /* top: 5305px; */
+    padding: 36px 255px 36px 255px;
+    /* border: 2px solid red; */
+    background-image: url('../../../public/Images/masjid.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advance-courses,
+.links,
+.admissions,
+.regular-courses {
+    width: 280px;
+    height: 320px;
+}
+
+
+li {
+    list-style-type: none;
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.links ul li,
+.advance-courses ul li,
+.admissions ul li,
+.regular-courses ul li {
+    font-size: 20px;
+    font-weight: 500;
+}
+.bottom-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}

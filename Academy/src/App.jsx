@@ -1,6 +1,7 @@
 import './App.css'
 import Courses from './components/Courses/Courses'
 import Events from './components/Events/Events'
+import Footer from './components/Footer/Footer'
 import Instructors from './components/Instructors/Instructors'
 import IslamicKnowledge from './components/IslamicKnowledge/IslamicKnowledge'
 import IslamicPillars from './components/IslamicPillars/IslamicPillars'
@@ -20,6 +21,7 @@ function App() {
       {/* <Philosphy /> */}
       <Events />
       <Instructors />
+      <Footer />
     </>
   )
 }
