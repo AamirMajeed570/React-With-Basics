@@ -20,7 +20,7 @@ const IslamicKnowledge = () => {
             <span> of Islamic Knowledge</span>
           </p>
           <p id="ethical">ETHICAL & MORAL BELIEFS THAT GUIDES</p>
-          <button type="submit" id="btn">
+          <button type="submit" id="btn" className="moreBtn">
             Learn More
           </button>
         </div>

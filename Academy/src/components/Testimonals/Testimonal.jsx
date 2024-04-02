@@ -14,7 +14,7 @@ const Testimonal = () => {
           Our programs are all personally developed in a way students can
           getaccess to our classical Islamic texts
         </p>
-        <button type="submit" id="btn">Courses</button>
+        <button type="submit" id="btn" className="courseBtn">Courses</button>
       </div>
       <div className="middle-Image"></div>
       <div className="middle-right-image"></div>

@@ -28,7 +28,7 @@ const Navbar = () => {
         <li className="login">
           <a href="#">Log In</a>
         </li>
-        <li className="signup">
+        <li className="signup hoverBtn">
           <a href="#">Sign Up</a>
         </li>
       </ul>

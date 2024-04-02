@@ -4,7 +4,7 @@
     top: 5305px;
     padding: 36px 255px 36px 255px;
     /* border: 2px solid red; */
-    background-image: url('../../../public/Images/Astagfir.png');
+    background-image: url('../../../public/Images/footer.jpg');
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -62,8 +62,12 @@
 .regular-courses {
     width: 280px;
     height: 320px;
+    padding: 4px;
+    text-align: left;
 }
-
+.links{
+    width: 100px;
+}
 
 li {
     list-style-type: none;
@@ -81,10 +85,27 @@ a {
 .regular-courses ul li {
     font-size: 20px;
     font-weight: 500;
+    text-align: left;
 }
 .bottom-footer{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.regular-courses h1{
+    padding-left: 27px;
+}
+.advance-courses h1{
+    padding-left: 27px;
+}
+.links h1{
+    padding-left: 30px;
+}
+.admissions h1{
+    padding-left: 35px;
+}
+.links{
+    /* padding: 1px; */
 }
