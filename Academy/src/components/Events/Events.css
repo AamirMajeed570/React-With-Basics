@@ -1,0 +1,156 @@
+.events-container {
+    width: 1510px;
+    height: 650px;
+    padding: 0px 80px 0px 80px;
+    gap: 10px;
+    opacity: 0px;
+    background: #FFFFFF;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.events-container img {
+    width: 626px;
+    height: 615px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    margin: 22px;
+}
+
+.events-workshop {
+    width: 525px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.events-text {
+    width: 525px;
+    height: 51px;
+}
+
+.workshop {
+    width: 525px;
+    height: 300px;
+    opacity: 0px;
+    border: 1px solid gray;
+    margin-top: 80px;
+    display: flex;
+}
+
+.date {
+    width: 58px;
+    height: 266px;
+    margin: 10px 0px 0px 10px;
+}
+
+.date p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.011em;
+    text-align: left;
+
+}
+
+.date span {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.ramadhan-workshop {
+    width: 466px;
+    height: 266px;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+
+.ramadhan-workshop p:nth-child(1) {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.ramadhan-workshop p:nth-child(2) {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.ramadhan-workshop p:nth-child(3) {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.ramadhan-workshop p:nth-child(4) {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.ramadhan-workshop p:nth-child(5) {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: -0.011em;
+    margin-left: 60px;
+}
+
+h4>span {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: -0.011em;
+    color: #D39C41;
+}
+
+.card-reach {
+    width:  305px;
+    height:  121px;
+    gap: 8px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 3px 18px 0px #00000026;   
+    text-align: center;
+}
+
+.reach{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}

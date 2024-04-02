@@ -1,5 +1,6 @@
 import './App.css'
 import Courses from './components/Courses/Courses'
+import Events from './components/Events/Events'
 import IslamicKnowledge from './components/IslamicKnowledge/IslamicKnowledge'
 import IslamicPillars from './components/IslamicPillars/IslamicPillars'
 import Navbar from './components/Navbar/Navbar'
@@ -15,7 +16,8 @@ function App() {
       <IslamicKnowledge />
       <Courses />
       <IslamicPillars />
-      <Philosphy />
+      {/* <Philosphy /> */}
+      <Events />
     </>
   )
 }
