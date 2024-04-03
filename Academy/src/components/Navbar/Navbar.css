@@ -117,3 +117,38 @@
     height: 240px;
     border: 2px solid red;
   }
+  /* Responsive Design */
+  /* Styles for devices with maximum width of 768px (tablets) */
+  
+  /* Styles for devices with maximum width of 480px (phones) */
+  @media only screen and (max-width: 480px) {
+    .container ul li {
+      width: 100%;
+      /* Make list items occupy full width */
+    }
+    .logo,
+    .courses,
+    .contact,
+    .events,
+    .login,
+    .signup {
+      font-size: 18px;
+      /* Adjust font size for smaller screens */
+      padding: 10px 16px;
+      /* Adjust padding for smaller screens */
+    }
+    .searchbox input {
+      width: calc(100% - 50px);
+      /* Adjust input width */
+    }
+    .hoverBtn {
+      padding: 0.4rem 2rem;
+      /* Adjust button padding for smaller screens */
+    }
+    .social-links {
+      width: 200px;
+      height: 200px;
+      /* Adjust dimensions for smaller screens */
+    }
+  }
+  
