@@ -105,9 +105,11 @@
     top: -290px;
     left: 150px;
 }
-.guides button:hover{
+
+.guides button:hover {
     transition: margin-right 2s;
 }
+
 .tahajud {
     background-image: url('/public/Images/Namaz(2).png');
     background-position: right;
@@ -134,9 +136,9 @@
     transition: all 0.3s ease-in-out;
     z-index: 1;
     overflow: hidden;
-  }
-  
-  .moreBtn::before {
+}
+
+.moreBtn::before {
     content: "";
     background-color: #f0ae45;
     width: 0;
@@ -147,9 +149,80 @@
     z-index: -1;
     transition: width 800ms ease-in-out;
     display: inline-block;
-  }
-  
-  .moreBtn:hover::before {
+}
+
+.moreBtn:hover::before {
     width: 100%;
     color: #fff;
-  }
+}
+
+/* Media Querey for Tablet Mode */
+/* Media Query for Tablet Mode */
+@media only screen and (min-width: 631px) and (max-width: 1024px) {
+    .islamic-knowledge {
+        width: 100%;
+        height: 800px;
+    }
+
+    .masjid {
+        width: 300px;
+        height: 300px;
+        top: -50px;
+        left: 10%;
+
+    }
+
+    .bismillah {
+        width: 80%;
+        height: auto;
+        top: -250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .bismillah #para-bismillah {
+        top: 130px;
+        left: 520px;
+        width: 350px;
+        height: 200px;
+    }
+
+    .guides {
+        width: 80%;
+        height: auto;
+        position: relative;
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .guides #para-guides,
+    .guides #ethical {
+        top: 40%;
+        left: 38%;
+        transform: translateX(-50%);
+    }
+
+    .guides button {
+        position: relative;
+        top: 40px;
+    }
+
+    .tahajud {
+        width: 50%;
+        height: 60%;
+        position: relative;
+        top: -400px;
+        left: 720px;
+        transform: translateX(-50%);
+        border: none;
+        background-image: url('/public/Images/Namaz(2).png');
+        border-radius: 20px;
+    }
+
+    .moreBtn {
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

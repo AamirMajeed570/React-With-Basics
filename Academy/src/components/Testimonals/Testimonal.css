@@ -1,7 +1,8 @@
-.testimonals{
+.testimonals {
     height: 100vh;
     width: 100%;
 }
+
 .left-Image {
     background-image: url(/public/Images/Lamps.png);
     background-repeat: no-repeat;
@@ -145,9 +146,9 @@
     transition: all 0.3s ease-in-out;
     z-index: 1;
     overflow: hidden;
-  }
-  
-  .courseBtn::before {
+}
+
+.courseBtn::before {
     content: "";
     background-color: #f0ae45;
     width: 0;
@@ -158,9 +159,84 @@
     z-index: -1;
     transition: width 800ms ease-in-out;
     display: inline-block;
-  }
-  
-  .courseBtn:hover::before {
+}
+
+.courseBtn:hover::before {
     width: 100%;
     color: #fff;
-  }
+}
+
+/* Responsive Design for Tab */
+
+/* Responsive Design for Tablets */
+@media only screen and (min-width: 670px) and (max-width: 1024px) {
+    /* .testimonals {
+        width: 333px;
+        height: 686px;
+    } */
+
+    .left-Image {
+        width: 200px;
+        height: 200px;
+        top: 20px;
+        left: 0;
+    }
+
+    .middle-Image {
+        width: 200px;
+        height: 200px;
+        top: -390px;
+        left: 300px;
+    }
+
+    .middle-right-image {
+        top: -689px;
+        left: 600px;
+    }
+
+    .man {
+        width: 380px;
+        height: 800px;
+        top: -850px;
+        left: 720px;
+    }
+
+    .child-Image {
+        width: 400px;
+        height: 500px;
+        top: -1470px;
+        left: -170px;
+    }
+
+    .right-Image {
+        width: 150px;
+        height: 150px;
+        top: -1600px;
+        left: 960px;
+    }
+
+    .knowledge {
+        width: 400px;
+        height: auto;
+        top: 0px;
+        left: 50px;
+    }
+
+    .knowledge #gaining {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .knowledge #programs {
+        width: 400px;
+        top: -30px;
+    }
+
+    .knowledge button {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 20px;
+        top: -40px;
+    }
+}

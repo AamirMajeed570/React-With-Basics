@@ -43,10 +43,10 @@
     position: relative;
     top: -30px;
 }
+
 .phi-img-card1,
 .phi-img-card2,
-.phi-img-card3
-{
+.phi-img-card3 {
     margin-left: 40px;
     margin-top: 60px;
 }
@@ -60,19 +60,10 @@
     flex-wrap: nowrap;
     justify-content: space-between; */
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     /* border: 2px solid green; */
 }
-
-/* .online-learning {
-    width: 513px;
-    height: 444px;
-    gap: 0px;
-    opacity: 0.2px;
-    z-index: -1;
-    margin-top: 80px;
-} */
 
 .online-learning {
     width: 153px;
@@ -93,21 +84,21 @@
 
 }
 
-.online-learning #img-2{
+.online-learning #img-2 {
     position: relative;
     top: 40px;
     left: 60px;
 
 }
 
-.online-learning #img-3{
+.online-learning #img-3 {
     position: relative;
     top: 40px;
     left: 60px;
 
 }
 
-.online-learning #img-4{
+.online-learning #img-4 {
     position: relative;
     top: 30px;
     left: 50px;
@@ -126,7 +117,7 @@
     box-shadow: 0 10px 14px rgba(0, 0, 0, 0.1);
 }
 
-.community h2{
+.community h2 {
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
@@ -145,4 +136,15 @@
     letter-spacing: -0.011em;
     text-align: center;
     color: black;
+}
+
+.community:hover {
+    background-image: url('../../../public/Images/landing.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(232, 217, 217);
+}
+
+.online-learning:hover {
+    background-color: rgb(231, 237, 167);
 }
