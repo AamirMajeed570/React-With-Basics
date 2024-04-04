@@ -1,7 +1,7 @@
 .philosphy-container {
     width: 90%;
-    height: 1000px;
-    border: 2px solid red;
+    height: 1200px;
+    /* border: 2px solid red; */
     padding: 0px 80px 0px 80px;
     background: #F3F2ED;
 }
@@ -43,36 +43,75 @@
     position: relative;
     top: -30px;
 }
+.phi-img-card1,
+.phi-img-card2,
+.phi-img-card3
+{
+    margin-left: 40px;
+    margin-top: 60px;
+}
 
 .learning {
     width: 1279px;
     height: 720px;
     gap: 20px;
     opacity: 0px;
-    border: 2px solid green;
+    /* display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    /* border: 2px solid green; */
 }
 
-.online-learning {
-    width: 413px;
-    height: 344px;
+/* .online-learning {
+    width: 513px;
+    height: 444px;
     gap: 0px;
-    opacity: 0px;
-    border: 2px solid red;
-}
+    opacity: 0.2px;
+    z-index: -1;
+    margin-top: 80px;
+} */
 
 .online-learning {
-    width: 133px;
-    height: 125px;
+    width: 153px;
+    height: 145px;
     left: 27px;
+    border: 2px solid red;
     gap: 10px;
     border-radius: 200px;
     border: 1px 0px 0px 0px;
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
 }
 
-.online-learning img {
+.online-learning #img-1 {
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 30px;
+
+}
+
+.online-learning #img-2{
+    position: relative;
+    top: 40px;
+    left: 60px;
+
+}
+
+.online-learning #img-3{
+    position: relative;
+    top: 40px;
+    left: 60px;
+
+}
+
+.online-learning #img-4{
+    position: relative;
+    top: 30px;
+    left: 50px;
+
 }
 
 .community {
@@ -81,20 +120,29 @@
     top: 66px;
     gap: 0px;
     border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
+    position: relative;
+    top: -29px;
     background: #FDFDFD;
-    /* border: 2px solid green; */
-    z-index: -1;
-    opacity: 0.6;
-    box-sizing: 0 10px 14px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.1);
 }
 
-.community>p {
+.community h2{
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
     line-height: 36px;
     letter-spacing: -0.011em;
-    text-align: left;
+    text-align: center;
+    color: black;
+    padding-top: 60px;
+}
+
+.community>p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.011em;
+    text-align: center;
     color: black;
 }
