@@ -1,19 +1,56 @@
-.philosphy-container {
-    width: 90%;
-    height: 1200px;
-    /* border: 2px solid red; */
-    padding: 0px 80px 0px 80px;
+.card-cont1 {
+    width: 98vw;
+    height: 1000px;
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    justify-items: center;
+}
+
+.card-cont {
     background: #F3F2ED;
+
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+}
+
+.card-image {
+    width: 120px;
+    height: 120px;
+    display: block;
+    border: 2px solid red;
+    border-radius: 200px;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.card-content {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 14px 9px 4px rgba(0, 0, 0, 0.1);
+    width: 290px;
+    height: 200px;
+    text-align: center;
+}
+
+.card-title1 {
+    width: 90%;
+    height: 100px;
+
 }
 
 .philosphy-text {
-    width: 90%;
-    height: 100px;
     gap: 12px;
     opacity: 0px;
 }
 
-.philosphy-text :first-child {
+.card-title1 :first-child {
     font-family: Montserrat;
     font-size: 48px;
     font-weight: 700;
@@ -32,7 +69,7 @@
     color: #D39C41;
 }
 
-.philosphy-text :nth-child(2) {
+.card-title1 :nth-child(2) {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 500;
@@ -44,107 +81,67 @@
     top: -30px;
 }
 
-.phi-img-card1,
-.phi-img-card2,
-.phi-img-card3 {
-    margin-left: 40px;
-    margin-top: 60px;
-}
-
-.learning {
-    width: 1279px;
-    height: 720px;
-    gap: 20px;
-    opacity: 0px;
-    /* display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between; */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    /* border: 2px solid green; */
-}
-
-.online-learning {
-    width: 153px;
-    height: 145px;
-    left: 27px;
-    border: 2px solid red;
-    gap: 10px;
-    border-radius: 200px;
-    border: 1px 0px 0px 0px;
-    /* display: flex; */
-    /* flex-wrap: nowrap; */
-}
-
-.online-learning #img-1 {
-    position: relative;
-    top: 20px;
-    left: 30px;
-
-}
-
-.online-learning #img-2 {
-    position: relative;
-    top: 40px;
-    left: 60px;
-
-}
-
-.online-learning #img-3 {
-    position: relative;
-    top: 40px;
-    left: 60px;
-
-}
-
-.online-learning #img-4 {
-    position: relative;
-    top: 30px;
-    left: 50px;
-
-}
-
-.community {
-    width: 413px;
-    height: 278px;
-    top: 66px;
-    gap: 0px;
-    border-radius: 4px 0px 0px 0px;
-    position: relative;
-    top: -29px;
-    background: #FDFDFD;
-    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.1);
-}
-
-.community h2 {
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 36px;
-    letter-spacing: -0.011em;
-    text-align: center;
-    color: black;
-    padding-top: 60px;
-}
-
-.community>p {
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
-    letter-spacing: -0.011em;
-    text-align: center;
-    color: black;
-}
-
-.community:hover {
+.card-content:hover {
     background-image: url('../../../public/Images/landing.avif');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(232, 217, 217);
 }
 
-.online-learning:hover {
+
+.card img:hover {
     background-color: rgb(231, 237, 167);
+}
+
+/* Media Queries */
+@media only screen and (min-width: 670px) and (max-width: 1024px) {
+    .card-cont{
+        margin-top: 90px;
+    }
+    .card-cont1 {
+        padding-top: 40px;
+        width: 90vw;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    .card-image {
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+        top: 10px;
+    }
+
+    .card-content {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .card-title1 :first-child,
+    .philosphy-text span {
+        padding-top: 50px;
+        font-size: 36px;
+        line-height: 23.2px;
+        font-size: 28px;
+    }
+
+    .card-title1 :nth-child(2) {
+        font-size: 16px;
+        line-height: 24px;
+        top: -15px;
+    }
+    .card-content:hover {
+        background-image: url('../../../public/Images/landing.avif');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgb(232, 217, 217);
+    }
 }

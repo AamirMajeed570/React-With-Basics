@@ -140,17 +140,135 @@ h4>span {
 }
 
 .card-reach {
-    width:  305px;
-    height:  121px;
+    width: 305px;
+    height: 121px;
     gap: 8px;
     border-radius: 6px 0px 0px 0px;
     opacity: 0px;
-    box-shadow: 0px 3px 18px 0px #00000026;   
+    box-shadow: 0px 3px 18px 0px #00000026;
     text-align: center;
 }
 
-.reach{
+.reach {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+}
+
+@media only screen and (min-width: 670px) and (max-width: 1024px) {
+    .events-container {
+        width: 90%;
+        padding: 0 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .events-container img {
+        width: 400px;
+        height: 400px;
+        margin: 0;
+        position: relative;
+        top: 100px;
+        left: -260px;
+        margin-top: 20px;
+    }
+
+    .events-workshop {
+        width: 60%;
+        margin: 20px auto;
+        position: relative;
+        left: 140px;
+        top: -320px;
+    }
+
+    .ramadhan-workshop p:nth-child(1) {
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: -0.011em;
+        text-align: left;
+    }
+
+    .ramadhan-workshop p:nth-child(2) {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: -0.011em;
+        text-align: left;
+    }
+
+    .ramadhan-workshop p:nth-child(3) {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: -0.011em;
+        text-align: left;
+    }
+
+    .ramadhan-workshop p:nth-child(4) {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: -0.011em;
+        text-align: left;
+    }
+
+    .ramadhan-workshop p:nth-child(5) {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.011em;
+        text-align: left;
+    }
+
+    .ramadhan-workshop h2 {
+        line-height: 18px;
+        font-size: 20px;
+    }
+
+    .events-text p {
+        position: relative;
+        top: -340px;
+        left: 250px;
+        font-size: 12px;
+    }
+
+    .ramadhan-workshop {
+        width: 300px;
+        height: 300px;
+        margin: 0;
+        position: relative;
+        top: -380px;
+        left: 390px;
+    }
+
+    .events-workshop,
+    .card-reach {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .workshop {
+        border: 0px;
+    }
+
+    .date {
+        position: relative;
+        top: -390px;
+        left: 240px;
+    }
+
+    h4 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .reach {
+        justify-content: center;
+    }
 }

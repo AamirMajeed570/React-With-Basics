@@ -3,114 +3,101 @@ import "./Philosphy.css";
 const Philosphy = () => {
   return (
     <>
-      <div className="philosphy-container">
-        <div className="philosphy-text">
+      <div className="card-cont">
+        <div className="card-title1">
           <p>
-            Our <span>Philosphy</span>
+            Our <span id="para">Philosphy</span>
           </p>
           <p>
             Journey to Enlightenment: Unraveling the Spiritual Tapestry of
             Islamic Philosophy.
           </p>
         </div>
-        <div className="learning">
-          <div className="phi-img-card1">
-            <div className="online-learning">
-              <img
-                id="img-1"
-                src="../../../public/Images/Quran.png"
-                alt="No Image"
-              />
-            </div>
-            <div className="community">
-              <h2>Online Learning</h2>
-              <p>
+        <div className="card-cont1">
+          <div className="card">
+            <img
+              src="../../../public/Images/Quran.png"
+              alt="Card"
+              className="card-image"
+            />
+            <div className="card-content">
+              <h2 className="card-title">Online Learning</h2>
+              <p className="card-text">
                 Quran Facility refers to the memorization and recitation of the
                 Quran.Which is the holy scripture of Quran
               </p>
             </div>
           </div>
-          <div className="phi-img-card2">
-            <div className="online-learning">
-              <img
-                id="img-2"
-                src="../../../public/Images/star.png"
-                alt="No Image"
-              />
-            </div>
-            <div className="community">
-              <h2>Spirituality</h2>
-              <p>
-                Quran Facility refers to the memorization and recitation of the
+          <div className="card">
+            <img
+              src="../../../public/Images/star.png"
+              alt="Card"
+              className="card-image"
+            />
+            <div className="card-content">
+              <h2 className="card-title">Spirituality</h2>
+              <p className="card-text">
+              Quran Facility refers to the memorization and recitation of the
                 Quran.Which is the holy scripture of Quran
               </p>
             </div>
           </div>
-          <div className="phi-img-card3">
-            <div className="online-learning">
-              <img
-                id="img-2"
-                src="../../../public/Images/prayer.png"
-                alt="No Image"
-              />
-            </div>
-            <div className="community">
-              <h2>Service</h2>
-              <p>
-                Quran Facility refers to the memorization and recitation of the
+          <div className="card">
+            <img
+              src="../../../public/Images/prayer.png"
+              alt="Card"
+              className="card-image"
+            />
+            <div className="card-content">
+              <h2 className="card-title">Service</h2>
+              <p className="card-text">
+              Quran Facility refers to the memorization and recitation of the
                 Quran.Which is the holy scripture of Quran
               </p>
             </div>
           </div>
-          <div className="phi-img-card3">
-            <div className="online-learning">
-              <img
-                id="img-3"
-                src="../../../public/Images/masjid-card.png"
-                alt="No Image"
-              />
-            </div>
-            <div className="community">
-              <h2>Community</h2>
-              <p>
-                Quran Facility refers to the memorization and recitation of the
+          <div className="card">
+            <img
+              src="../../../public/Images/Child.png"
+              alt="Card"
+              className="card-image"
+            />
+            <div className="card-content">
+              <h2 className="card-title">Community</h2>
+              <p className="card-text">
+              Quran Facility refers to the memorization and recitation of the
                 Quran.Which is the holy scripture of Quran
               </p>
             </div>
           </div>
-          <div className="phi-img-card3">
-            <div className="online-learning">
-              <img
-                id="img-3"
-                src="../../../public/Images/prayer.png"
-                alt="No Image"
-              />
-            </div>
-            <div className="community">
-              <h2>Certificate</h2>
-              <p>
-                Quran Facility refers to the memorization and recitation of the
+          <div className="card">
+            <img
+              src="../../../public/Images/masjid-card.png"
+              alt="Card"
+              className="card-image"
+            />
+            <div className="card-content">
+              <h2 className="card-title">Certificate</h2>
+              <p className="card-text">
+              Quran Facility refers to the memorization and recitation of the
                 Quran.Which is the holy scripture of Quran
               </p>
             </div>
           </div>
-          <div className="phi-img-card3">
-            <div className="online-learning">
-              <img
-                id="img-4"
-                src="../../../public/Images/globe.png"
-                alt="No Image"
-              />
-            </div>
-            <div className="community">
-              <h2>Learn From Anywhere Anytime</h2>
-              <p>
-                Quran Facility refers to the memorization and recitation of the
+          <div className="card">
+            <img
+              src="../../../public/Images/globe.png"
+              alt="Card"
+              className="card-image"
+            />
+            <div className="card-content">
+              <h2 className="card-title">Learn from Anywhere Anytime</h2>
+              <p className="card-text">
+              Quran Facility refers to the memorization and recitation of the
                 Quran.Which is the holy scripture of Quran
               </p>
             </div>
           </div>
-          
         </div>
       </div>
     </>

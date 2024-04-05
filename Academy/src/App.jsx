@@ -1,5 +1,5 @@
 import './App.css'
-import Card from './components/Card/Card'
+// import Card from './components/Card/Card'
 import Courses from './components/Courses/Courses'
 import Events from './components/Events/Events'
 import Footer from './components/Footer/Footer'
@@ -15,15 +15,15 @@ function App() {
   return (
     <>
       <Navbar />
-      <Card />
-      {/* <Testimonal />
+      {/* <Card /> */}
+      <Testimonal />
       <IslamicKnowledge />
       <Courses />
       <IslamicPillars />
       <Philosphy />
       <Events />
       <Instructors />
-      <Footer /> */}
+      <Footer />
     </>
   )
 }

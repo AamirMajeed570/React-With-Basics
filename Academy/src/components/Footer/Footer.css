@@ -54,6 +54,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .advance-courses,
 .links,
 .admissions,
@@ -63,7 +64,8 @@
     padding: 4px;
     text-align: left;
 }
-.links{
+
+.links {
     width: 100px;
 }
 
@@ -85,23 +87,27 @@ a {
     font-weight: 500;
     text-align: left;
 }
-.bottom-footer{
+
+.bottom-footer {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.regular-courses h1{
+.regular-courses h1 {
     padding-left: 27px;
 }
-.advance-courses h1{
+
+.advance-courses h1 {
     padding-left: 27px;
 }
-.links h1{
+
+.links h1 {
     padding-left: 30px;
 }
-.admissions h1{
+
+.admissions h1 {
     padding-left: 35px;
 }
 
@@ -110,13 +116,106 @@ footer li::before {
     background-color: #075e54;
     width: 0;
 }
+
 li::before {
     display: inline-block;
-  }
-  
-  footer li:hover::before {
+}
+
+footer li:hover::before {
     width: 100%;
-  }
-  footer li:hover {
+}
+
+footer a:hover {
     color: #fff;
-  }
+    background-color: #73e627;
+}
+
+.advance-courses ul li a:hover {
+    background-color: #73e627;
+    color: #090707;
+}
+
+.admissions ul li a:hover {
+    background-color: #73e627;
+    color: #090707;
+}
+
+.regular-courses ul li a:hover {
+    color: black;
+    background-color: #73e627;
+}
+
+.links ul li a:hover {
+    background-color: #73e627;
+    color: #090707;
+}
+
+@media only screen and (min-width: 670px) and (max-width: 1024px) {
+
+    .top-footer,
+    .bottom-footer {
+        width: 90%;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .top-footer {
+        height: auto;
+        margin-top: 80px
+    }
+
+    img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        padding-top: 50px;
+    }
+
+    .top-footer {
+        height: auto;
+    }
+
+    .top-footer p:nth-child(2),
+    .top-footer p:nth-child(3),
+    .top-footer p:nth-child(4) {
+        width: 100%;
+        padding: 0 20px;
+        font-size: 13px;
+    }
+
+    .top-footer p:nth-child(3),
+    .top-footer p:nth-child(4) {
+        font-size: 13px;
+    }
+
+    .bottom-footer {
+        height: auto;
+        background-size: contain;
+    }
+
+    .advance-courses,
+    .links,
+    .admissions,
+    .regular-courses {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        padding-left: 39px;
+    }
+
+    .advance-courses h1,
+    .links h1,
+    .admissions h1,
+    .regular-courses h1 {
+        font-size: 22px;
+        width: 100px;
+    }
+
+    footer li::before {
+        width: 0;
+    }
+}
