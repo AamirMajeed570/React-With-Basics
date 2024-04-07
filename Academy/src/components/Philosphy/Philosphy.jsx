@@ -3,7 +3,7 @@ import "./Philosphy.css";
 const Philosphy = () => {
   return (
     <>
-      <div className="card-cont">
+      {/* <div className="card-cont">
         <div className="card-title1">
           <p>
             Our <span id="para">Philosphy</span>
@@ -97,6 +97,29 @@ const Philosphy = () => {
                 Quran.Which is the holy scripture of Quran
               </p>
             </div>
+          </div>
+        </div>
+      </div> */}
+      <div className="cards">
+      <div className="card-title1">
+        <p>
+          Our <span id="para">Philosphy</span>
+        </p>
+        <p>
+          Journey to Enlightenment: Unraveling the Spiritual Tapestry of Islamic
+          Philosophy.
+        </p>
+      </div>
+        <div className="row">
+          <div className="card1">
+            <div className="image-container">
+              <img src="../../../public/Images/Quran.png" alt="" srcset="" />
+            </div>
+            <h2>Online Learning</h2>
+            <p>
+              Quran Facility refers to the memorization and recitation of the
+              Quran.Which is the holy scripture of Quran
+            </p>
           </div>
         </div>
       </div>

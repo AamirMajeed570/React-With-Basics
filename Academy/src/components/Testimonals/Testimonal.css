@@ -1,5 +1,5 @@
 .testimonals {
-    height: 100vh;
+    height: 84vh;
     width: 100%;
 }
 
@@ -9,7 +9,7 @@
     background-position: center;
     position: relative;
     top: 20px;
-    /* left: -30px; */
+    left: -60px;
     width: 250px;
     height: 250px;
 }
@@ -32,9 +32,20 @@
     position: relative;
     width: 100px;
     height: 87.09px;
-    top: -839px;
-    left: 1056px;
+    top: -799px;
+    left: 1136px;
     opacity: 0px;
+}
+
+.vector-image{
+    background-image: url('../../../public/Images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 1010px;
+    top: -800px;
+    width: 357px;
+    height: 526px;
 }
 
 .man {
@@ -44,8 +55,8 @@
     position: relative;
     width: 408px;
     height: 703px;
-    top: -950px;
-    left: 1352px;
+    top: -1450px;
+    left: 1398px;
     gap: 0px;
     opacity: 0px;
 }
@@ -55,12 +66,10 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    width: 646px;
-    height: 756px;
-    top: -1700px;
+    width: 629px;
+    height: 119px;
+    top: -1825px;
     left: -250px;
-    gap: 103px;
-    opacity: 0px;
 
 }
 
@@ -71,10 +80,8 @@
     position: relative;
     width: 231.31px;
     height: 255.51px;
-    top: -1632px;
-    left: 1588px;
-    gap: 0px;
-    opacity: 0px;
+    top: -2142px;
+    left: 1649px;
 
 }
 

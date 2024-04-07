@@ -1,8 +1,8 @@
 .courses-container {
-    width: 100%;
+    width: 98.5vw;
     height: 797px;
     /* border: 2px solid red; */
-    padding-left: 30px;
+    /* padding-left: 30px; */
     background: #FFFFFF;
 }
 

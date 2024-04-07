@@ -1,136 +1,171 @@
 .container {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .container ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    /* Align navbar items */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  /* Align navbar items */
 }
 
 .container ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .container ul li a {
-    text-decoration: none;
-    color: black;
-    font-family: Montserrat;
-    font-size: 22px;
-    /* Adjust font size as needed */
-    letter-spacing: -0.011em;
-    /* Same letter spacing for all links */
+  text-decoration: none;
+  color: black;
+  font-family: Montserrat;
+  font-size: 22px;
+  /* Adjust font size as needed */
+  letter-spacing: -0.011em;
+  /* Same letter spacing for all links */
 }
 
 .searchbox {
-    position: relative;
-    /* Position relative to place the icon */
+  position: relative;
 }
 
 .search-icon {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    color: #555;
-    /* Adjust icon color as needed */
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 18.8vw;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: larger;
+  /* Adjust icon color as needed */
+  cursor: pointer;
 }
 
 .searchbox input {
-  width: 240px; /* Set width to match */
-  height: 40px; /* Set height to match */
-  padding: 5px; /* Adjust padding as needed */
-  border: 1px solid #194D37; /* Adjust border properties as needed */
+  width: 17vw;
+  /* Set width to match */
+  height: 4vh;
+  padding: 5px;
+  /* Adjust padding as needed */
+  border: 1px solid #194D37;
+  /* Adjust border properties as needed */
   border-radius: 4px;
 }
 
-.searchbox input {
-    width: 240px;
-    height: 40px;
-    /* Adjust height as needed */
-    padding: 8px 40px 8px 12px;
-    /* Adjust padding as needed */
-    border: 1px solid #194D37;
-    /* Adjust border properties as needed */
-    border-radius: 4px;
+.searchbox input::placeholder {
+  position: relative;
+  left: 20px;
+  font-size: larger;
 }
+
+.searchbox input {
+  /* width: 240px;
+    height: 40px; */
+  /* Adjust height as needed */
+  padding: 8px 40px 8px 12px;
+  /* Adjust padding as needed */
+  border: 1px solid #194D37;
+  /* Adjust border properties as needed */
+  border-radius: 4px;
+  border: 1.5px solid #114a37;
+  color: #194d37;
+  font-weight: 400;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
 .logo,
 .courses,
 .contact,
 .events,
 .login,
 .signup {
-    /* Apply consistent styles for these elements */
-    font-family: Montserrat;
-    font-size: 22px;
-    /* Adjust font size as needed */
-    letter-spacing: -0.011em;
-    /* Same letter spacing for all links */
-    padding: 12px 20px;
-    /* Adjust padding as needed */
-    /* border: 1px solid #000000; */
-    /* Adjust border properties as needed */
-    border-radius: 4px;
-    /* Adjust border-radius as needed */
+  /* Apply consistent styles for these elements */
+  font-family: Montserrat;
+  font-size: 22px;
+  /* Adjust font size as needed */
+  letter-spacing: -0.011em;
+  /* Same letter spacing for all links */
+  padding: 12px 20px;
+  /* Adjust padding as needed */
+  /* border: 1px solid #000000; */
+  /* Adjust border properties as needed */
+  border-radius: 4px;
+  /* Adjust border-radius as needed */
+  font-weight: 500;
+}
+.events,
+.login,
+.contact{
+  font-size: medium;
 }
 
-.signup{
-    border: 1px solid #000000;
+.courses {
+  border: 1.5px solid #114a37;
+
 }
+
+.signup {
+  border: 1.5px solid #114a37;
+  width: 5vw;
+  height: 4vh;
+}
+
 .hoverBtn {
-    position: relative;
-    background-color: transparent;
-    border: 2px solid #075e54;
-    border-radius: 0.25rem;
-    padding: 0.5rem 2.5rem;
-    font-size: 0.875rem;
-    cursor: pointer;
-    color: #4caf50;
-    transition: all 0.3s ease-in-out;
-    z-index: 1;
-    overflow: hidden;
-  }
-.hoverBtn::before {
-    content: "";
-    background-color: #f0ae45;
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: width 800ms ease-in-out;
-    display: inline-block;
-  }
-  
-  .hoverBtn:hover::before {
-    width: 100%;
-    color: #fff;
-  }
+  position: relative;
+  background-color: transparent;
+  border: 2px solid #075e54;
+  border-radius: 0.25rem;
+  padding: 0.5rem 2.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  color: #4caf50;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
 
-  .social-links{
-    width: 240px;
-    height: 240px;
-    border: 2px solid red;
-  }
-  /* Responsive Design */
-  /* Styles for devices with maximum width of 768px (tablets) */
-  /* Styles for devices with a maximum width of 768px (tablets) */
-@media only screen and (min-width: 670px) and (max-width: 1024px){
+.hoverBtn::before {
+  content: "";
+  background-color: #f0ae45;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 800ms ease-in-out;
+  display: inline-block;
+}
+
+.hoverBtn:hover::before {
+  width: 100%;
+  color: #fff;
+}
+
+.social-links {
+  width: 240px;
+  height: 240px;
+  border: 2px solid red;
+}
+
+/* Responsive Design */
+/* Styles for devices with maximum width of 768px (tablets) */
+/* Styles for devices with a maximum width of 768px (tablets) */
+@media only screen and (min-width: 670px) and (max-width: 1024px) {
   .container ul li a {
     text-decoration: none;
     color: black;
     font-family: Montserrat;
     font-size: 20px;
     letter-spacing: -0.011em;
-}
+  }
+
   .searchbox input {
-      width: 180px;
-      /* Adjust input width for tablets */
+    width: 180px;
+    /* Adjust input width for tablets */
   }
 
   .logo,
@@ -143,30 +178,32 @@
   }
 
   .hoverBtn {
-      padding: 0.4rem 1.5rem;
-      /* Adjust button padding for tablets */
+    padding: 0.4rem 1.5rem;
+    /* Adjust button padding for tablets */
   }
 
   .social-links {
-      width: 180px;
-      height: 180px;
-      /* Adjust dimensions for tablets */
+    width: 180px;
+    height: 180px;
+    /* Adjust dimensions for tablets */
   }
 }
 
-  /* Styles for devices with maximum width of 480px (phones) */
-  
-  /* Mobile Query for 320x616 */
+/* Styles for devices with maximum width of 480px (phones) */
+
+/* Mobile Query for 320x616 */
 @media only screen and (max-width: 430px) and (max-height: 8905px) {
-  .container{
+  .container {
     border: 2px solid red;
   }
+
   .container ul li a {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .searchbox input {
-      width: 140px; /* Adjust input width for 320x616 devices */
+    width: 140px;
+    /* Adjust input width for 320x616 devices */
   }
 
   .logo,
@@ -175,15 +212,18 @@
   .events,
   .login,
   .signup {
-      margin: 3px 2px; /* Adjust margins for 320x616 devices */
+    margin: 3px 2px;
+    /* Adjust margins for 320x616 devices */
   }
 
   .hoverBtn {
-      padding: 0.3rem 1.2rem; /* Adjust button padding for 320x616 devices */
+    padding: 0.3rem 1.2rem;
+    /* Adjust button padding for 320x616 devices */
   }
 
   .social-links {
-      width: 140px;
-      height: 140px; /* Adjust dimensions for 320x616 devices */
+    width: 140px;
+    height: 140px;
+    /* Adjust dimensions for 320x616 devices */
   }
 }

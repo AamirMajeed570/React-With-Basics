@@ -18,6 +18,7 @@ const Testimonal = () => {
       </div>
       <div className="middle-Image"></div>
       <div className="middle-right-image"></div>
+      <div className="vector-image"></div>
       <div className="man"></div>
       <div className="right-Image"></div>
       <div className="child-Image"></div>

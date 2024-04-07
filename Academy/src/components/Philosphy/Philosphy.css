@@ -1,51 +1,91 @@
-.card-cont1 {
-    width: 98vw;
-    height: 1000px;
-    /* border: 2px solid; */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    /* justify-content: space-evenly; */
-    justify-items: center;
+
+.cards{
+    background: #F3F2ED;
+    
 }
+/* .card-cont1 {
+    width: 98.8vw;
+    height: 1000px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    justify-items: center; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between; */
+/* }
 
 .card-cont {
     background: #F3F2ED;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
 
-}
+/* .card {
 
-.card {
-    width: 200px;
-    height: 200px;
-}
-
-.card-image {
-    width: 120px;
-    height: 120px;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}  */
+/* .card-cont1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+  
+  /* .card {
+    width: calc(33.33% - 20px); 
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } */
+  
+  /* .card-content {
+    padding: 20px;
+  }
+  
+  .card-image {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  } */
+  
+  /* .card-title {
+    margin-top: 0;
+  }
+  
+  .card-text {
+    margin-bottom: 0;
+  } */
+/* .card-image {
+    width: 59px;
+    height: 50px;
     display: block;
     border: 2px solid red;
     border-radius: 200px;
     padding: 20px;
     position: relative;
-    top: 20px;
-}
+    top: 10px;
+} */
 
-.card-content {
+/* .card-content {
     padding: 20px;
     background-color: white;
     box-shadow: 14px 9px 4px rgba(0, 0, 0, 0.1);
-    width: 290px;
-    height: 200px;
+    width: 413px;
+    height: 278px;
     text-align: center;
-}
+} */
 
-.card-title1 {
-    width: 90%;
-    height: 100px;
 
-}
-
-.philosphy-text {
+/* .philosphy-text {
     gap: 12px;
     opacity: 0px;
 }
@@ -57,9 +97,9 @@
     line-height: 57.6px;
     letter-spacing: -0.011em;
     text-align: left;
-}
+} */
 
-.philosphy-text span {
+/* .philosphy-text span {
     font-family: Montserrat;
     font-size: 48px;
     font-weight: 700;
@@ -67,9 +107,9 @@
     letter-spacing: -0.011em;
     text-align: left;
     color: #D39C41;
-}
+} */
 
-.card-title1 :nth-child(2) {
+/* .card-title1 :nth-child(2) {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 500;
@@ -79,9 +119,9 @@
     color: #D39C41;
     position: relative;
     top: -30px;
-}
+} */
 
-.card-content:hover {
+/* .card-content:hover {
     background-image: url('../../../public/Images/landing.avif');
     background-repeat: no-repeat;
     background-position: center;
@@ -91,13 +131,14 @@
 
 .card img:hover {
     background-color: rgb(231, 237, 167);
-}
+} */
 
 /* Media Queries */
-@media only screen and (min-width: 670px) and (max-width: 1024px) {
-    .card-cont{
+/* @media only screen and (min-width: 670px) and (max-width: 1024px) {
+    .card-cont {
         margin-top: 90px;
     }
+
     .card-cont1 {
         padding-top: 40px;
         width: 90vw;
@@ -105,7 +146,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    
+
 
     .card {
         width: 90%;
@@ -138,10 +179,11 @@
         line-height: 24px;
         top: -15px;
     }
+
     .card-content:hover {
         background-image: url('../../../public/Images/landing.avif');
         background-repeat: no-repeat;
         background-position: center;
         background-color: rgb(232, 217, 217);
     }
-}
+} */

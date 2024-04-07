@@ -1,11 +1,8 @@
 .islamic-pillars {
-    width: 100%;
+    width: 98.5vw;
     height: 246px;
-    gap: 80px;
-    opacity: 0px;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
 }
 
 .Qalima {
