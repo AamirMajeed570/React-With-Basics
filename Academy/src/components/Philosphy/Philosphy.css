@@ -1,105 +1,24 @@
-
-.cards{
+/* New Code Begins Here */
+.philosphy-container {
+    margin-top: 20px;
+    width: 98.5vw;
+    height: 1200px;
+    /* border: 2px solid; */
     background: #F3F2ED;
-    
-}
-/* .card-cont1 {
-    width: 98.8vw;
-    height: 1000px;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-around;
-    justify-items: center; */
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-between; */
-/* }
-
-.card-cont {
-    background: #F3F2ED;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
-
-/* .card {
-
-    width: calc(33.33% - 20px);
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}  */
-/* .card-cont1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  } */
-  
-  /* .card {
-    width: calc(33.33% - 20px); 
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  } */
-  
-  /* .card-content {
-    padding: 20px;
-  }
-  
-  .card-image {
-    width: 100%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  } */
-  
-  /* .card-title {
-    margin-top: 0;
-  }
-  
-  .card-text {
-    margin-bottom: 0;
-  } */
-/* .card-image {
-    width: 59px;
-    height: 50px;
-    display: block;
-    border: 2px solid red;
-    border-radius: 200px;
-    padding: 20px;
-    position: relative;
-    top: 10px;
-} */
-
-/* .card-content {
-    padding: 20px;
-    background-color: white;
-    box-shadow: 14px 9px 4px rgba(0, 0, 0, 0.1);
-    width: 413px;
-    height: 278px;
-    text-align: center;
-} */
-
-
-/* .philosphy-text {
-    gap: 12px;
-    opacity: 0px;
+    /* padding-left: 20px; */
 }
 
-.card-title1 :first-child {
+.our-philosophy {
     font-family: Montserrat;
     font-size: 48px;
     font-weight: 700;
     line-height: 57.6px;
     letter-spacing: -0.011em;
     text-align: left;
-} */
+    padding: 12px;
+}
 
-/* .philosphy-text span {
+span {
     font-family: Montserrat;
     font-size: 48px;
     font-weight: 700;
@@ -107,83 +26,106 @@
     letter-spacing: -0.011em;
     text-align: left;
     color: #D39C41;
-} */
+}
 
-/* .card-title1 :nth-child(2) {
+#phi-para {
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: -0.011em;
     text-align: left;
     color: #D39C41;
-    position: relative;
-    top: -30px;
-} */
-
-/* .card-content:hover {
-    background-image: url('../../../public/Images/landing.avif');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgb(232, 217, 217);
+    padding: 12px;
 }
 
+.row {
+    /* border: 2px solid; */
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-gap: 20px;
+}
 
-.card img:hover {
-    background-color: rgb(231, 237, 167);
-} */
+.col {
+    /* border: 2px solid; */
+    width: 500px;
+    /* margin-left: 82px; */
+    margin: 0px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
 
-/* Media Queries */
-/* @media only screen and (min-width: 670px) and (max-width: 1024px) {
-    .card-cont {
-        margin-top: 90px;
-    }
+}
 
-    .card-cont1 {
-        padding-top: 40px;
-        width: 90vw;
-        height: auto;
-        grid-template-columns: repeat(2, 1fr);
-    }
+.img-icon {
+    width: 113px;
+    height: 115px;
+    border: 1px solid #f05e5e;
+    border-radius: 50%;
+    /* Make the container circular */
+    overflow: hidden;
+    /* Ensure the image stays within the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    top: 20px;
+}
 
+.img-icon img {
+    width: 59px;
+    height: 50px;
+    max-width: 100%;
+    /* Ensure the image stays within the container */
+    max-height: 100%;
+    /* Ensure the image stays within the container */
+}
 
+.philosophy-title {
+    width: 413px;
+    height: 278px;
+    background-color: #fff;
+    /* border: 2px solid; */
+    padding: 18px;
+    box-shadow: 14px 9px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
 
-    .card {
-        width: 90%;
-        height: auto;
-    }
+.philosophy-title :first-child {
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 700;
+    /* line-height: 57.6px; */
+    letter-spacing: -0.011em;
+    text-align: left;
+    font-size: 36px;
+    line-height: 23.2px;
+    font-size: 28px;
+}
 
-    .card-image {
-        width: 80px;
-        height: 80px;
-        padding: 10px;
-        top: 10px;
-    }
+.philosophy-title :last-child {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
 
-    .card-content {
-        width: 90%;
-        height: auto;
-        padding: 10px;
-    }
+.philosophy-title:hover {
+    background-image: url('../../../public/Images/landing.avif');
+    background-size: cover;
+    box-shadow: none;
+}
 
-    .card-title1 :first-child,
-    .philosphy-text span {
-        padding-top: 50px;
-        font-size: 36px;
-        line-height: 23.2px;
-        font-size: 28px;
-    }
+.philosophy-title .img-icon {
+    transition: transform 0.3s ease-in-out;
+}
 
-    .card-title1 :nth-child(2) {
-        font-size: 16px;
-        line-height: 24px;
-        top: -15px;
-    }
+.philosophy-title:hover .img-icon {
+    background-color: rgba(241, 241, 132, 0.2);
 
-    .card-content:hover {
-        background-image: url('../../../public/Images/landing.avif');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: rgb(232, 217, 217);
-    }
-} */
+}
