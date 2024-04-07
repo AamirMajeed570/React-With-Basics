@@ -16,11 +16,11 @@ function App() {
       <Testimonal />
       <IslamicKnowledge />
       <Courses />
-       <IslamicPillars />
+      <IslamicPillars />
       <Philosphy />
-     {/* <Events />
+      <Events />
       <Instructors />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

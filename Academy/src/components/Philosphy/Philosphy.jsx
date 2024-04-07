@@ -101,7 +101,7 @@ const Philosphy = () => {
         </div>
       </div> */}
         <div className="philosphy-container">
-          <h1 className="our-philosophy">Our <span>Philosophy</span></h1>
+          <h1 className="our-philosophy">Our <span id="phi-span">Philosophy</span></h1>
           <p id="phi-para">Journey to Enlightment: Unraveling the Spiritual Tapestry of Islamic Philosophy</p>
           <div className="row">
             <div className="col">

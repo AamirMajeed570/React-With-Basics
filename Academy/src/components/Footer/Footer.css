@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     opacity: 0.9;
+    padding-top: 40px;
 }
 
 .top-footer p:nth-child(2) {
@@ -22,6 +23,7 @@
     line-height: 30px;
     letter-spacing: -0.011em;
     text-align: center;
+    padding-top: 40px;
 }
 
 .top-footer p:nth-child(3) {
@@ -32,6 +34,7 @@
     text-align: center;
     position: relative;
     top: -60px;
+    padding-top: 40px;
 }
 
 .top-footer p:nth-child(4) {
@@ -49,10 +52,14 @@
     width: 1160px;
     height: 471px;
     /* top: 5305px; */
-    padding: 36px 255px 36px 255px;
+    padding-top: 20px;
+    padding: 36px 255px 200px 255px;
     background-image: url('../../../public/Images/masjid.png');
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    top: -120px;
+    
 }
 
 .advance-courses,
@@ -63,10 +70,12 @@
     height: 320px;
     padding: 4px;
     text-align: left;
+    padding-top: 630px;
 }
 
-.links {
-    width: 100px;
+.footer-social-links {
+    width: 240px;
+    padding-top: 600px;
 }
 
 li {
@@ -150,6 +159,23 @@ footer a:hover {
     color: #090707;
 }
 
+.reach-links{
+    border: 2px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 4px;
+}
+.admissions  li a {
+    text-decoration: none;
+    color: #333; /* Change link color as needed */
+    transition: color 0.3s; /* Apply transition effect to color property */
+  }
+
+  .admissions a:hover {
+    color: #0c0b07; /* Change link color on hover */
+  }
 @media only screen and (min-width: 670px) and (max-width: 1024px) {
 
     .top-footer,
@@ -207,6 +233,9 @@ footer a:hover {
         padding-left: 39px;
     }
 
+    .links{
+        padding-top: 250px;
+    }
     .advance-courses h1,
     .links h1,
     .admissions h1,

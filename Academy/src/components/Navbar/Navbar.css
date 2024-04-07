@@ -72,7 +72,7 @@
 }
 
 .logo {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.5rem;
 }
 
@@ -85,6 +85,7 @@
   /* Apply consistent styles for these elements */
   font-family: Montserrat;
   font-size: 22px;
+  font-weight: 600;
   /* Adjust font size as needed */
   letter-spacing: -0.011em;
   /* Same letter spacing for all links */
@@ -94,12 +95,12 @@
   /* Adjust border properties as needed */
   border-radius: 4px;
   /* Adjust border-radius as needed */
-  font-weight: 500;
 }
 .events,
 .login,
 .contact{
   font-size: medium;
+  font-weight: 600;
 }
 
 .courses {
@@ -111,6 +112,7 @@
   border: 1.5px solid #114a37;
   width: 5vw;
   height: 4vh;
+  font-weight: 600;
 }
 
 .hoverBtn {
@@ -148,7 +150,6 @@
 .social-links {
   width: 240px;
   height: 240px;
-  border: 2px solid red;
 }
 
 /* Responsive Design */

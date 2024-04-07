@@ -73,10 +73,10 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="social-links">
-            <FaInstagram className="mx-2" />
-            <FaLinkedin className="mx-2" />
-            <FaXTwitter className="mx-2"  />
+        <div className="footer-social-links">
+            <FaInstagram className="reach-links mx-2 hover:bg-black" />
+            <FaLinkedin className="reach-links" />
+            <FaXTwitter className="reach-links"  />
             <p>All Rights Reserved | 2024</p>
         </div>
       </div>
