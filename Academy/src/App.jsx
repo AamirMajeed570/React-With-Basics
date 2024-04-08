@@ -13,14 +13,14 @@ function App() {
   return (
     <>
       <Navbar />
-      <Testimonal />
+      {/* <Testimonal />
       <IslamicKnowledge />
       <Courses />
       <IslamicPillars />
       <Philosphy />
       <Events />
       <Instructors />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
