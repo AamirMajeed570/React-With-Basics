@@ -21,6 +21,9 @@
   color: black;
   font-family: Montserrat;
   font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.5rem;
   /* Adjust font size as needed */
   letter-spacing: -0.011em;
   /* Same letter spacing for all links */
@@ -89,6 +92,11 @@
   letter-spacing: -0.011em;
   padding: 12px 20px;
   border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .events,
