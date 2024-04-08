@@ -13,10 +13,10 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Testimonal />
+      <Testimonal />
       <IslamicKnowledge />
       <Courses />
-      <IslamicPillars />
+     {/* <IslamicPillars />
       <Philosphy />
       <Events />
       <Instructors />

@@ -37,7 +37,7 @@
     opacity: 0px;
 }
 
-.vector-image{
+.vector-image {
     background-image: url('../../../public/Images/Vector.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -176,74 +176,162 @@
 /* Responsive Design for Tab */
 
 /* Responsive Design for Tablets */
-@media only screen and (min-width: 670px) and (max-width: 1024px) {
-    /* .testimonals {
-        width: 333px;
-        height: 686px;
-    } */
+@media only screen and (max-width: 700px) {
+    .testimonals {
+        width: 700px;
+        height: 400px;
+    }
 
     .left-Image {
-        width: 200px;
-        height: 200px;
+        width: 116px;
+        height: 162px;
         top: 20px;
         left: 0;
     }
 
     .middle-Image {
-        width: 200px;
-        height: 200px;
-        top: -390px;
-        left: 300px;
+        width: 165px;
+        height: 192px;
+        top: -461px;
+        left: 380px;
     }
 
     .middle-right-image {
-        top: -689px;
-        left: 600px;
+        top: -662px;
+        left: 240px;
     }
-
+    .vector-image,
     .man {
-        width: 380px;
-        height: 800px;
-        top: -850px;
-        left: 720px;
+        display: none;
     }
 
     .child-Image {
-        width: 400px;
-        height: 500px;
-        top: -1470px;
-        left: -170px;
+        position: absolute;
+        top: 352px;
     }
 
     .right-Image {
-        width: 150px;
-        height: 150px;
-        top: -1600px;
-        left: 960px;
-    }
-
-    .knowledge {
-        width: 400px;
-        height: auto;
-        top: 0px;
-        left: 50px;
+        width: 100px;
+        /* height: 100px; */
+        position: relative;
+        top: -796px;
+        left: 83%;
     }
 
     .knowledge #gaining {
-        font-size: 38px;
-        line-height: 50px;
+        font-size: 35px;
+        line-height: 43px;
+        position: relative;
+        top: 80px;
     }
 
     .knowledge #programs {
         width: 400px;
-        top: -30px;
+        top: 32px;
     }
 
     .knowledge button {
-        width: 150px;
-        height: 40px;
         font-size: 14px;
         line-height: 20px;
-        top: -40px;
+        top: 88px;
+        /* left: -85px; */
+        right: 348px;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px) {
+    .testimonals{
+        height: 800px;
+    }
+    .right-Image {
+        background-image: url(/public/Images/Lamp2.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        position: relative;
+        width: 231.31px;
+        height: 255.51px;
+        top: -2166px;
+        left: 771px;
+    }
+
+    .middle-Image {
+        background-image: url(/public/Images/Pen.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        top: -498px;
+        left: 296px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .knowledge #gaining {
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 76.8px;
+        text-align: left;
+        position: relative;
+        right: 29%;
+    }
+
+    .knowledge #programs {
+        display: inline-block;
+        width: 473px;
+        color: #D69D45;
+        position: relative;
+        top: -66px;
+        right: 28%;
+    }
+
+    .knowledge button {
+        width: 177px;
+        height: 50px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.011em;
+        text-align: center;
+        color: white;
+        background: #114A37;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        top: -60px;
+        right: 27%;
+    }
+    .middle-right-image {
+        background-image: url(/public/Images/Quran.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        width: 100px;
+        height: 87.09px;
+        /* right: -59%; */
+        top: -808px;
+        left: 58%;
+        opacity: 0px;
+    }
+    .vector-image {
+        background-image: url(/public/Images/Vector.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        left: 46%;
+        top: -800px;
+        width: 357px;
+        height: 526px;
+    }
+    .man {
+        background-image: url(/public/Images/Man.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        position: relative;
+        width: 408px;
+        height: 718px;
+        top: -1363px;
+        left: 43%;
     }
 }

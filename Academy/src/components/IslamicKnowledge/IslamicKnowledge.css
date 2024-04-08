@@ -157,71 +157,182 @@
 
 /* Media Querey for Tablet Mode */
 /* Media Query for Tablet Mode */
-@media only screen and (min-width: 631px) and (max-width: 1024px) {
+@media only screen and (max-width: 700px) {
     .islamic-knowledge {
-        width: 100%;
-        height: 800px;
+        width: 700px;
+        height: 1200px;
     }
 
     .masjid {
         width: 300px;
         height: 300px;
-        top: -50px;
+        top: -23px;
         left: 10%;
-
     }
 
-    .bismillah {
-        width: 80%;
-        height: auto;
-        top: -250px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .bismillah #para-bismillah {
-        top: 130px;
-        left: 520px;
-        width: 350px;
-        height: 200px;
-    }
-
-    .guides {
-        width: 80%;
-        height: auto;
+    .guides #para-guides {
         position: relative;
-        top: -100px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .guides #para-guides,
-    .guides #ethical {
-        top: 40%;
-        left: 38%;
+        top: -264px;
+        left: 107%;
         transform: translateX(-50%);
     }
 
     .guides button {
         position: relative;
-        top: 40px;
+        top: -141px;
+        left: 96px;
     }
 
-    .tahajud {
-        width: 50%;
-        height: 60%;
+    .guides #ethical {
+        width: 400px;
         position: relative;
-        top: -500px;
-        left: 720px;
+        top: -123%;
+        left: 89%;
+        transform: translateX(-50%);
+    }
+
+    .guides button {
+        width: 159px;
+        height: 60px;
+        border: 2px solid;
+        position: relative;
+        top: -282px;
+        left: 71%;
+    }
+
+    .bismillah {
+        width: 302px;
+        height: 200px;
+        position: relative;
+        transform: translateX(-50%);
+        top: 171px;
+        left: 64%;
+        transform: translateX(-50%);
+    }
+
+    .bismillah #para-bismillah {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.011em;
+        text-align: left;
+        position: relative;
+        /* top: 150px; */
+        left: -81%;
+    }
+
+
+    .guides {
+
+        transform: translateX(-50%);
+    }
+
+
+
+
+
+    .tahajud {
+        /* width: 50%; */
+        /* height: 60%; */
         transform: translateX(-50%);
         border: none;
         background-image: url('/public/Images/Namaz(2).png');
-        border-radius: 20px;
+        /* border-radius: 20px; */
+        position: relative;
+        top: 30px;
+        left: 47%;
     }
+
 
     .moreBtn {
         top: 50%;
         left: 50%;
         transform: translateX(-50%);
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px)
+{
+    .masjid {
+        background-image: url(/public/Images/Namaz.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -107px;
+        left: 95px;
+        width: 360px;
+        height: 356px;
+        gap: 0px;
+        border-radius: 200px 200px 8px 8px;
+        opacity: 0px;
+    }
+    .guides #para-guides {
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57.6px;
+        letter-spacing: -0.011em;
+        text-align: left;
+        width: 518px;
+        position: relative;
+        top: -369px;
+        left: 95px;
+    }
+    .guides #ethical {
+        font-family: Montserrat;
+        color: #D39C41;
+        position: relative;
+        top: -400px;
+        left: 102px;
+    }
+    .guides button {
+        height: 48px;
+        gap: 0px;
+        border-radius: 4px 0px 0px 0px;
+        opacity: 0px;
+        background: #114A37;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        top: -395px;
+        left: 96px;
+    }
+    .bismillah {
+        width: 295px;
+        height: 216px;
+        gap: 38px;
+        opacity: 0px;
+        background-image: url(/public/Images/bismillah.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -291px;
+        left: 618px;
+    }
+    .bismillah #para-bismillah {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.011em;
+        text-align: left;
+        position: relative;
+        top: 153px;
+        left: 35px;
+    }
+    .tahajud {
+        background-image: url('/public/Images/Namaz(2).png');
+        background-position: right;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 388px;
+        height: 323px;
+        gap: 0px;
+        border-radius: 200px 200px 8px 8px;
+        opacity: 0px;
+        top: -454px;
+        left: 55%;
     }
 }
