@@ -50,12 +50,8 @@
 }
 
 .col {
-    /* border: 2px solid; */
     width: 500px;
-    /* margin-left: 82px; */
     margin: 0px;
-    /* margin-left: 20px;
-    margin-right: 20px; */
 
 }
 
@@ -115,18 +111,11 @@
     letter-spacing: -0.011em;
     text-align: left;
 }
-
-.philosophy-title:hover {
+.col:hover .img-icon{
+    background-color: rgba(226, 226, 70, 0.1);
+}
+.col:hover .philosophy-title{
     background-image: url('../../../public/Images/landing.avif');
     background-size: cover;
     box-shadow: none;
-}
-
-.philosophy-title .img-icon {
-    transition: transform 0.3s ease-in-out;
-}
-
-.philosophy-title:hover .img-icon {
-    background-color: rgba(241, 241, 132, 0.2);
-
 }

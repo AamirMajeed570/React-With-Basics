@@ -86,6 +86,21 @@
 
 }
 
+/* .card1:hover{
+    background-image: url('../../../public/Images/Lamps.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.card1 img:hover{
+    transition: transform 0.3s ease;
+    transform: scale(0.6);
+
+}
+.card1 p:hover{
+    transform: scale(0.6);
+} */
+
 /* Media Query for a Tablet Mode */
 @media only screen and (min-width: 670px) and (max-width: 1024px) {
     .courses-container {

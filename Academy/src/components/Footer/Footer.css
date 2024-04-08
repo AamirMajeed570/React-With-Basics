@@ -51,30 +51,29 @@
 .bottom-footer {
     width: 1160px;
     height: 471px;
-    /* top: 5305px; */
     padding-top: 20px;
     padding: 36px 255px 200px 255px;
     background-image: url('../../../public/Images/masjid.png');
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    top: -120px;
-    
+    top: -120px;  
 }
 
 .advance-courses,
 .links,
 .admissions,
 .regular-courses {
-    width: 280px;
+    width: 340px;
     height: 320px;
     padding: 4px;
     text-align: left;
     padding-top: 630px;
+
 }
 
 .footer-social-links {
-    width: 240px;
+    width: 340px;
     padding-top: 600px;
 }
 
@@ -140,23 +139,23 @@ footer a:hover {
 }
 
 .advance-courses ul li a:hover {
-    background-color: #73e627;
-    color: #090707;
+    background-color:black;
+    color: white;
 }
 
 .admissions ul li a:hover {
-    background-color: #73e627;
-    color: #090707;
+    background-color:black;
+    color: white;
 }
 
 .regular-courses ul li a:hover {
-    color: black;
-    background-color: #73e627;
+    background-color:black;
+    color: white;
 }
 
 .links ul li a:hover {
-    background-color: #73e627;
-    color: #090707;
+    background-color:black;
+    color: white;
 }
 
 .reach-links{
@@ -176,6 +175,13 @@ footer a:hover {
   .admissions a:hover {
     color: #0c0b07; /* Change link color on hover */
   }
+
+  .reach-links:hover{
+    background-color:black;
+    color: white;
+  }
+
+
 @media only screen and (min-width: 670px) and (max-width: 1024px) {
 
     .top-footer,
