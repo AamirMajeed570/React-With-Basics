@@ -100,7 +100,7 @@
     font-size: 36px;
     line-height: 23.2px;
     font-size: 28px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 .philosophy-title :last-child {
@@ -118,4 +118,58 @@
     background-image: url('../../../public/Images/landing.avif');
     background-size: cover;
     box-shadow: none;
+}
+@media only screen and (max-width:700px){
+    .philosphy-container{
+        width: 98.5vw;
+        height: 2890px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .img-icon img {
+        width: 50px;
+        height: 94px;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        top: -21px;
+    }
+    .img-icon {
+        width: 104px;
+        height: 110px;
+        border: 1px solid #f05e5e;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        position: relative;
+        top: 27px;
+        left: 12%;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px){
+    .philosphy-container{
+        width: 98.5vw;
+        height: 1500px;
+        padding-left: 0px;
+    }
+        .row{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-content: space-between;
+        }
+        .img-icon img {
+            width: 71px;
+            height: 62px;
+            max-width: 100%;
+            max-height: 100%;
+            position: relative;
+            top: -19px;
+        }
 }

@@ -12,17 +12,17 @@ const Courses = () => {
         </p>
       </div>
       <div className="cards">
-        <div className="card1">
+        <div className="card1 resize-effect">
           <img src="../../../public/Images/Teacher.png" alt="" srcset="" />
           <p id="arab">Arabic Teaching</p>
           <p id="wisdom">Unlock the beauty and the wisdom of the Quran</p>
         </div>
-        <div className="card2">
+        <div className="card2 resize-effect">
           <img src="../../../public/Images/Childs.png" alt="" srcset="" />
           <p id="arab">Quran Teaching</p>
           <p id="wisdom">Unlock the beauty and the wisdom of the Quran</p>
         </div>
-        <div className="card3">
+        <div className="card3 resize-effect">
           <img src="../../../public/Images/Library.png" alt="" srcset="" />
           <p id="arab">Islamic Studies</p>
           <p id="wisdom">Unlock the beauty and the wisdom of the Quran</p>

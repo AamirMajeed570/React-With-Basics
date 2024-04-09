@@ -155,7 +155,7 @@ h4>span {
     justify-content: space-around;
 }
 
-@media only screen and (min-width: 670px) and (max-width: 1024px) {
+@media only screen and (max-width: 700px) {
     .events-container {
         width: 90%;
         padding: 0 20px;
@@ -168,24 +168,30 @@ h4>span {
         height: 400px;
         margin: 0;
         position: relative;
-        top: 100px;
-        left: -260px;
-        margin-top: 20px;
+        top: -40px;
+        left: -14px;
     }
 
     .events-workshop {
-        width: 60%;
-        margin: 20px auto;
         position: relative;
-        left: 140px;
-        top: -320px;
+        /* left: 140px; */
+        top: -55px;
+    }
+
+    .events-workshop h4 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 51px;
+        letter-spacing: -0.011em;
+        margin-left: 60px;
     }
 
     .ramadhan-workshop p:nth-child(1) {
         font-family: Montserrat;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 600;
-        line-height: 19px;
+        line-height: 16px;
         letter-spacing: -0.011em;
         text-align: left;
     }
@@ -227,16 +233,31 @@ h4>span {
     }
 
     .ramadhan-workshop h2 {
-        line-height: 18px;
+        line-height: 0px;
         font-size: 20px;
         cursor: pointer;
     }
 
     .events-text p {
         position: relative;
-        top: -340px;
-        left: 250px;
+        top: -72px;
+        left: 54px;
         font-size: 12px;
+    }
+
+    h4{
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: -0.011em;
+        margin-left: 125px;
+    }
+
+    .date {
+        position: relative;
+        top: -194px;
+        left: 64px;
     }
 
     .ramadhan-workshop {
@@ -244,8 +265,13 @@ h4>span {
         height: 300px;
         margin: 0;
         position: relative;
-        top: -380px;
-        left: 390px;
+        top: -176px;
+        left: 206px;
+    }
+
+    h4>span {
+        font-family: Montserrat;
+        font-size: 20px;
     }
 
     .events-workshop,
@@ -253,23 +279,21 @@ h4>span {
         width: 60%;
         margin: 20px auto;
     }
-
+    .card-reach h1{
+        font-size: 23px;
+    }
     .workshop {
         border: 0px;
     }
 
     .date {
         position: relative;
-        top: -390px;
-        left: 240px;
+        top: -145px;
+        left: 149px;
     }
-
-    h4 {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .reach {
+    .reach{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         justify-content: center;
     }
 }

@@ -86,20 +86,22 @@
 
 }
 
-/* .card1:hover{
-    background-image: url('../../../public/Images/Lamps.png');
+.resize-effect:hover{
+    background-image: url('../../../public/Images/landing.avif');
     background-repeat: no-repeat; 
-    background-position: center;
+    background-position: top;
+    box-shadow: none;
 }
 
-.card1 img:hover{
-    transition: transform 0.3s ease;
-    transform: scale(0.6);
+.resize-effect:hover img{
+    transition: all 1s ease-in;
+    transform: scale(0.3);
 
 }
-.card1 p:hover{
+
+.resize-effect:hover p{
     transform: scale(0.6);
-} */
+}
 
 /* Media Query for a Tablet Mode */
 @media only screen and (max-width: 700px) {
