@@ -19,8 +19,8 @@ function App() {
     <IslamicPillars />
         <Philosphy />
       <Events />
-      {/*<Instructors />
-      <Footer /> */}
+      <Instructors />
+      {/*<Footer /> */}
     </>
   );
 }

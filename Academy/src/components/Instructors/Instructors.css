@@ -96,14 +96,29 @@
     text-align: left;
 }
 
-@media only screen and (min-width: 670px) and (max-width: 1024px) {
+@media only screen and (max-width: 700px) {
     .instructor-Container {
         width: 90%;
         padding: 40px 20px;
         justify-content: center;
         flex-wrap: wrap;
     }
-
+    .stars p:nth-child(2) {
+        font-size: 20px;
+        position: relative;
+        top: -150px;
+        left: 112px;
+    }
+    #reviews {
+        position: relative;
+        left: 200px;
+        top: -50px;
+    }
+    .stars p:nth-child(3){
+        position: relative;
+        top: -160px;
+        left: 116px;
+    }
     .instructor-Container h1 {
         width: 100%;
         height: 30vh;
@@ -114,8 +129,8 @@
     .teacher1,
     .teacher2 {
         border: 2px solid;
-        width: 100%;
-        height: 35vh;
+        width: 900px;
+        height: 25vh;
         margin-top: 20px;
     }
 
@@ -158,5 +173,42 @@
         position: relative;
         left: 350px;
         top: -50px;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:1200px){
+    .instructor-Container{
+        width: 930px;
+        height: 300px;
+        padding: 0px;
+        margin: auto;
+    }
+    .teacher1,
+    .teacher2{
+        width: 430px;
+        margin: 3px;
+        height: 250px;
+    }
+    .stars {
+        gap: 8px;
+        opacity: 0px;
+        position: relative;
+        top: -93px;
+        left: 146px;
+    }
+    #reviews {
+        position: relative;
+        left: 150px;
+        top: 74px;
+        color: #DDB245;
+    }
+    .student1 p{
+        font-size: 13px;
+    }
+    .stars p:nth-child(2) {
+        width: 267.17px;
+        height: 21px;
+        font-family: Montserrat;
+        font-size: 26px;
+        text-align: right;
     }
 }
