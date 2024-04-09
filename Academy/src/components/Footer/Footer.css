@@ -242,6 +242,31 @@ footer a:hover {
         position: relative;
         top: -283%;
     }
-
-
+}
+@media only screen and (min-width:900px) and (max-width:1200px){
+    .top-footer{
+        width: 480px;
+        border: 2px solid;
+    }
+    .bottom-footer{
+        width: 480px;
+        border: 1px solid;
+    }
+    .advance-courses, .links, .admissions, .regular-courses {
+        width: 340px;
+        height: 320px;
+        position: relative;
+        left: -38%;
+    }
+    .footer-social-links {
+        width: 364px;
+        display: flex;
+        position: relative;
+        left: -122%;
+        top: 41%;
+        align-content: space-around;
+        align-items: center;
+    }
+    
+    
 }

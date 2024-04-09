@@ -106,7 +106,7 @@
     .stars p:nth-child(2) {
         font-size: 20px;
         position: relative;
-        top: -150px;
+        top: -100px;
         left: 172px;
     }
     .stars p:nth-child(3){
@@ -139,12 +139,17 @@
     #reviews {
         position: relative;
         left: 253px;
-        top: -150px;
+        top: -41px;
     }
     .regular-courses {
         position: relative;
         top: -40%;
         left: 22%;
+    }
+    .teacher1 img, .teacher2 img {
+        display: inline;
+        padding: 4px;
+        height: 134px;
     }
 }
 @media only screen and (min-width:900px) and (max-width:1200px){
