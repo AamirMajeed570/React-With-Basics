@@ -20,7 +20,7 @@ function App() {
         <Philosphy />
       <Events />
       <Instructors />
-      {/*<Footer /> */}
+      <Footer />
     </>
   );
 }
