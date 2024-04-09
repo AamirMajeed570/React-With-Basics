@@ -88,6 +88,8 @@
     padding: 18px;
     box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .philosophy-title :first-child {
@@ -111,24 +113,29 @@
     letter-spacing: -0.011em;
     text-align: left;
 }
-.col:hover .img-icon{
+
+.col:hover .img-icon {
     background-color: rgba(226, 226, 70, 0.1);
 }
-.col:hover .philosophy-title{
+
+.col:hover .philosophy-title {
     background-image: url('../../../public/Images/landing.avif');
     background-size: cover;
     box-shadow: none;
 }
-@media only screen and (max-width:700px){
-    .philosphy-container{
+
+@media only screen and (max-width:700px) {
+    .philosphy-container {
         width: 98.5vw;
         height: 2890px;
     }
-    .row{
+
+    .row {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
+
     .img-icon img {
         width: 50px;
         height: 94px;
@@ -137,6 +144,7 @@
         position: relative;
         top: -21px;
     }
+
     .img-icon {
         width: 104px;
         height: 110px;
@@ -153,23 +161,25 @@
     }
 }
 
-@media only screen and (min-width:900px) and (max-width:1200px){
-    .philosphy-container{
+@media only screen and (min-width:900px) and (max-width:1200px) {
+    .philosphy-container {
         width: 98.5vw;
         height: 1500px;
         padding-left: 0px;
     }
-        .row{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            justify-content: space-between;
-        }
-        .img-icon img {
-            width: 71px;
-            height: 62px;
-            max-width: 100%;
-            max-height: 100%;
-            position: relative;
-            top: -19px;
-        }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+
+    .img-icon img {
+        width: 71px;
+        height: 62px;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        top: -19px;
+    }
 }

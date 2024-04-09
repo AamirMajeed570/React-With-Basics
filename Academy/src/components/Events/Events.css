@@ -189,7 +189,7 @@ h4>span {
 
     .ramadhan-workshop p:nth-child(1) {
         font-family: Montserrat;
-        font-size: 20px;
+        /* font-size: 20px; */
         font-weight: 600;
         line-height: 16px;
         letter-spacing: -0.011em;
@@ -198,7 +198,7 @@ h4>span {
 
     .ramadhan-workshop p:nth-child(2) {
         font-family: Montserrat;
-        font-size: 12px;
+        /* font-size: 12px; */
         font-weight: 500;
         line-height: 17px;
         letter-spacing: -0.011em;
@@ -207,7 +207,7 @@ h4>span {
 
     .ramadhan-workshop p:nth-child(3) {
         font-family: Montserrat;
-        font-size: 12px;
+        /* font-size: 12px; */
         font-weight: 500;
         line-height: 18px;
         letter-spacing: -0.011em;
@@ -216,7 +216,7 @@ h4>span {
 
     .ramadhan-workshop p:nth-child(4) {
         font-family: Montserrat;
-        font-size: 12px;
+        /* font-size: 12px; */
         font-weight: 500;
         line-height: 17px;
         letter-spacing: -0.011em;
@@ -225,7 +225,7 @@ h4>span {
 
     .ramadhan-workshop p:nth-child(5) {
         font-family: Montserrat;
-        font-size: 18px;
+        /* font-size: 18px; */
         font-weight: 500;
         line-height: 20px;
         letter-spacing: -0.011em;
@@ -245,13 +245,14 @@ h4>span {
         font-size: 12px;
     }
 
-    h4{
-        font-family: Montserrat;
+    h4 {
+        /* font-family: Montserrat;
         font-size: 20px;
         font-weight: 700;
         line-height: 44px;
         letter-spacing: -0.011em;
-        margin-left: 125px;
+        margin-left: 125px; */
+        display: none;
     }
 
     .date {
@@ -270,8 +271,9 @@ h4>span {
     }
 
     h4>span {
-        font-family: Montserrat;
-        font-size: 20px;
+        /* font-family: Montserrat;
+        font-size: 20px; */
+        display: none;
     }
 
     .events-workshop,
@@ -279,21 +281,61 @@ h4>span {
         width: 60%;
         margin: 20px auto;
     }
-    .card-reach h1{
+
+    .card-reach h1 {
         font-size: 23px;
     }
+
     .workshop {
         border: 0px;
     }
 
     .date {
         position: relative;
-        top: -145px;
+        top: -195px;
         left: 149px;
     }
-    .reach{
+
+    .reach {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
+        position: relative;
+        top: 60px;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px) {
+    .events-container {
+        width: 1000px;
+        height: 648px;
+        opacity: 0px;
+        background: #FFFFFF;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .events-container img {
+        width: 400px;
+        height: 490px;
+        border-radius: 4px 0px 0px 0px;
+        opacity: 0px;
+        position: relative;
+        left: -62px;
+    }
+    .all-events{
+        border: 2px solid;
+        position: relative;
+        left: -30px;
+    }
+    h3 {
+        font-size: 16px;
+        position: relative;
+        left: -60px;
+    }
+    .card-reach{
+        width: 230px;
+        height: 121px;
     }
 }

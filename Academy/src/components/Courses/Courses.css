@@ -100,6 +100,7 @@
 }
 
 .resize-effect:hover p{
+    transition: all 1s ease-in;
     transform: scale(0.6);
 }
 

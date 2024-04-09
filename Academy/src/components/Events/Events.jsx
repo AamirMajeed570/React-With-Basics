@@ -10,7 +10,7 @@ const Events = () => {
       <div className="all-events">
         <div className="events-workshop">
           <h1>Events</h1>
-          <h4>See all</h4>
+          <h3>See all</h3>
         </div>
         <div className="events-text">
           <p>
