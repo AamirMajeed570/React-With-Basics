@@ -246,11 +246,9 @@ footer a:hover {
 @media only screen and (min-width:900px) and (max-width:1200px){
     .top-footer{
         width: 480px;
-        border: 2px solid;
     }
     .bottom-footer{
         width: 480px;
-        border: 1px solid;
     }
     .advance-courses, .links, .admissions, .regular-courses {
         width: 340px;
@@ -267,6 +265,5 @@ footer a:hover {
         align-content: space-around;
         align-items: center;
     }
-    
-    
+
 }

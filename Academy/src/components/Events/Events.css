@@ -326,7 +326,7 @@ h4>span {
         left: -62px;
     }
     .all-events{
-        border: 2px solid;
+        /* border: 2px solid; */
         position: relative;
         left: -30px;
     }
