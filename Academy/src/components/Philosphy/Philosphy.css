@@ -116,6 +116,7 @@
 
 .col:hover .img-icon {
     background-color: rgba(226, 226, 70, 0.1);
+    transition: background-image 1s ease-in;
 }
 
 .col:hover .philosophy-title {

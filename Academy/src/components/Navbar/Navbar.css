@@ -154,10 +154,28 @@
   height: 240px;
 }
 
+.menu-icon{
+  display: none;
+}
+
 /* Responsive Design */
 /* Extra small devices (phones, 600px and down) */
+/* .menu-icon {
+  display: hidden;
+  cursor: pointer;
+  float: right;
+  font-size: 30px;
+  padding: 10px;
+
+} */
 @media only screen and (max-width: 700px) {
-  .container ul li a {
+  /* .menu-icon{
+    display: block;
+  }
+  .menu-items {
+    display: none;
+  } */
+   .container ul li a { 
     text-decoration: none;
     color: black;
     font-family: Montserrat;
@@ -219,7 +237,7 @@
     width: 80px;
     height: 80px;
   }
-}
+} 
 @media only screen and (min-width:900px) and (max-width:1200px) {
   .container ul li a {
     text-decoration: none;
