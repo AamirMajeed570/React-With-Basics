@@ -14,13 +14,13 @@ function App() {
     <>
       <Navbar />
       <Testimonal />
-      <IslamicKnowledge />
+       <IslamicKnowledge />
       <Courses />
     <IslamicPillars />
-        <Philosphy />
-      <Events />
+       <Philosphy />
+        <Events />
       <Instructors />
-      <Footer />
+     <Footer /> 
     </>
   );
 }

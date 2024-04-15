@@ -1,6 +1,7 @@
 .testimonals {
-    height: 84vh;
-    width: 100%;
+    height: 100vh;
+    width: 97.1vw;
+    /* border: 2px solid; */
 }
 
 .left-Image {
@@ -19,8 +20,8 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    top: -390px;
-    left: 760px;
+    top: -489px;
+    left: 604px;
     width: 250px;
     height: 250px;
 }
@@ -33,7 +34,7 @@
     width: 100px;
     height: 87.09px;
     top: -799px;
-    left: 1136px;
+    left: 61%;
     opacity: 0px;
 }
 
@@ -42,7 +43,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    left: 1010px;
+    left: 54%;
     top: -800px;
     width: 357px;
     height: 526px;
@@ -55,8 +56,8 @@
     position: relative;
     width: 408px;
     height: 703px;
-    top: -1450px;
-    left: 1398px;
+    top: -1467px;
+    left: 73%;
     gap: 0px;
     opacity: 0px;
 }
@@ -81,7 +82,7 @@
     width: 231.31px;
     height: 255.51px;
     top: -2142px;
-    left: 1649px;
+    left: 87%;
 
 }
 
@@ -250,7 +251,7 @@
         position: relative;
         width: 231.31px;
         height: 255.51px;
-        top: -2166px;
+        top: -2154px;
         left: 771px;
     }
 
@@ -332,6 +333,6 @@
         width: 408px;
         height: 718px;
         top: -1363px;
-        left: 43%;
+        left: 57%;
     }
 }

@@ -1,7 +1,7 @@
 /* New Code Begins Here */
 .philosphy-container {
     margin-top: 20px;
-    width: 98.5vw;
+    width: 98.4vw;
     height: 1200px;
     /* border: 2px solid; */
     background: #F3F2ED;
@@ -138,12 +138,12 @@
     }
 
     .img-icon img {
-        width: 50px;
-        height: 94px;
+        width: 45px;
+        height: 56px;
         max-width: 100%;
         max-height: 100%;
         position: relative;
-        top: -21px;
+        /* top: -21px; */
     }
 
     .img-icon {
@@ -181,6 +181,6 @@
         max-width: 100%;
         max-height: 100%;
         position: relative;
-        top: -19px;
+        /* top: -19px; */
     }
 }

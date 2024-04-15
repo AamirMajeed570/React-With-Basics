@@ -1,5 +1,5 @@
 .courses-container {
-    width: 98.5vw;
+    width: 98.4vw;
     height: 797px;
     /* border: 2px solid red; */
     /* padding-left: 30px; */
@@ -75,7 +75,7 @@
 .card3 #wisdom,
 .card2 #wisdom,
 .card1 #wisdom {
-    width: 412px;
+    /* width: 412px; */
     height: 24px;
     font-family: Montserrat;
     font-size: 16px;
@@ -86,20 +86,20 @@
 
 }
 
-.resize-effect:hover{
+.resize-effect:hover {
     background-image: url('../../../public/Images/landing.avif');
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: top;
     box-shadow: none;
 }
 
-.resize-effect:hover img{
+.resize-effect:hover img {
     transition: all 1s ease-in;
     transform: scale(0.3);
 
 }
 
-.resize-effect:hover p{
+.resize-effect:hover p {
     transition: all 1s ease-in;
     transform: scale(0.6);
 }
@@ -166,16 +166,25 @@
     .card1,
     .card3,
     .card2 {
-        width: 350px;
-        height: 489px;
+        width: 321px;
+        height: 472px;
         /* background: #FFFFFF; */
         box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.1);
     }
-
+   
     .card1 img,
     .card2 img,
     .card3 img {
-        width: 350px;
-        height: 304px;
+        width: 317px;
+        height: 269px;
+    }
+    .card1 #arab,
+    .card2 #arab,
+    .card3 #arab {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    #wisdom{
+        text-align: center;
     }
 }

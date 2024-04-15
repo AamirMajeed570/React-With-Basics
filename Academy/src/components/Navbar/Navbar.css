@@ -1,6 +1,7 @@
 .container {
-  width: 98.5vw;
+  width: 98.4vw;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  /* border: 2px solid; */
 }
 
 .container ul {
