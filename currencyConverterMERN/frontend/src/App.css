@@ -42,7 +42,9 @@
 }
 
 .converter{
+  width: 28vw;
   border: 2px solid;
+  margin: auto;
 }
 .converter form select{
   width: 20vw;
@@ -53,5 +55,18 @@
   margin: 2vw ;
 }
 .converter input{
-  
+  width: 20vw;
+  height: 8vh;
+  background-color: #fff;
+  color: black;
+  font-size: 1.5vw;
+  margin: 2vw ;
+}
+
+.converter button{
+  width: 8vw;
+  height: 8vh;
+  background-color: #fff;
+  color: black;
+  margin-top: 1.2vw;
 }
