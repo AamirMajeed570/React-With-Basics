@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.converter{
+  border: 2px solid;
+}
+.converter form select{
+  width: 20vw;
+  height: 8vh;
+  color: black;
+  font-size: 1.3vw;
+  background-color: #fff;
+  margin: 2vw ;
+}
+.converter input{
+  
+}

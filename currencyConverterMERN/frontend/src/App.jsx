@@ -20,19 +20,37 @@ function App() {
     }));
   };
 
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   // Here you can add your logic for making the API request and handling the response
+  //   try {
+  //     const response = await axios.post("http://localhost:5000/api/convert", {
+  //       formData,
+  //     });
+  //     console.log("hello")
+  //     console.log(response.data)
+  // setResult(response.data);
+  //   } catch (error) {
+  //     console.log(error)
+  //   }
+  // };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you can add your logic for making the API request and handling the response
     try {
+      const { from, to, amount } = formData; // Destructure formData
       const response = await axios.post("http://localhost:5000/api/convert", {
-        formData,
+        from,
+        to,
+        amount,
       });
-      console.log("hello")
-      console.log(response)
+      if (response.data) {
+        setResult(response.data); // Set the result state
+      }
     } catch (error) {
-      console.log(error)
+      setError(error.response.data.message); // Set the error state
     }
   };
+  
 
   return (
     <>
