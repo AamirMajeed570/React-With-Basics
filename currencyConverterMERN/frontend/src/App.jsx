@@ -20,20 +20,6 @@ function App() {
     }));
   };
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   // Here you can add your logic for making the API request and handling the response
-  //   try {
-  //     const response = await axios.post("http://localhost:5000/api/convert", {
-  //       formData,
-  //     });
-  //     console.log("hello")
-  //     console.log(response.data)
-  // setResult(response.data);
-  //   } catch (error) {
-  //     console.log(error)
-  //   }
-  // };
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
