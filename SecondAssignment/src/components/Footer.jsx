@@ -51,7 +51,7 @@ const Footer = () => {
             <img src={recording} alt="" />
             <p>Recording</p>
           </div>
-          <div className="icon">
+          <div className="icon icon-share">
             <img src={Reaction} alt="" />
             <p>Share</p>
           </div>

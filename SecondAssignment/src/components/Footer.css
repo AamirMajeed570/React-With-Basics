@@ -15,7 +15,6 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0.5px;
     display: flex;
     /* margin: 0.5; */
 }
@@ -89,7 +88,19 @@ footer {
     color: red;
 } 
 
-/* .icon:hover img,
-.icon:hover p {
+.icon-share:hover img,
+.icon-share:hover p {
     filter: brightness(50%);
-} */
+}
+
+@media screen and (max-width:760px){
+    .second-part .icon{
+        display: none;
+    }
+    .video-title :nth-child(2){
+        right: 30%;
+    }
+    .third-part :nth-child(2){
+        display: none;
+    }
+}
