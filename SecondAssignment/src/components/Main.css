@@ -59,31 +59,62 @@ ul :last-child {
 .right-sidebar {
     width: 5%;
     border: 1px solid #3F3E46;
+    /* background: #2A2931; */
     background: #2A2931;
     text-align: center;
     /* height: 90vh;
     z-index: 100; */
 }
+
 .middle-section {
     position: relative;
     width: 100%;
-    display: flex; /* Add flex display */
-    justify-content: flex-start; /* Align items to the start (left) */
-    /* transition: margin-right 0.5s; Use margin-right instead of margin-left */
-  }
-  
-  .right-sidebar {
+    display: flex;
+    /* Add flex display */
+    justify-content: flex-start;
+    /* Align items to the start (left) */
+    transition: margin-right 0.5s;
+}
+
+.right-sidebar {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #f0f0f0; /* Adjust background color as needed */
-    width: 50px; /* Set initial width */
-    height: 100%; /* Fill the entire height */
+    /* background-color: #27262F; */
+    /* Adjust background color as needed */
+    width: 50px;
+    /* Set initial width */
+    height: 100%;
+    /* Fill the entire height */
     cursor: pointer;
-    transition: width 0.5s; /* Add transition for width */
-  }
-  
-  .sidebar-expanded {
-    width: 400px; /* Adjust expanded width */
-  }
-  
+    transition: width 0.5s;
+    /* Add transition for width */
+    display: flex;
+}
+
+.card {
+    width: 88%;
+    background-color: red;
+    display: flex;
+
+}
+
+.sidebar-expanded {
+    width: 550px;
+    /* background: #27262F; */
+    /* Adjust expanded width */
+}
+
+.sidebar-icon {
+    width: 10%;
+    height: 80vh;
+    /* background: #27262F; */
+    border: 1px solid #3F3E46;
+}
+
+/* .cross-icon{
+    overflow: hidden;
+    width: 10%;
+    float: right;
+    color: wheat;
+  } */

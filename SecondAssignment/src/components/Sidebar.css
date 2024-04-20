@@ -1,0 +1,68 @@
+.navbar-questions {
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    color: white;
+}
+
+.qa {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1vw;
+    background: #27262F;
+}
+
+.qa h4,
+h3 {
+    background: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.sortBy-dropdown,
+.view-dropdown {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: 10%;
+}
+
+.sortBy-dropdown option,
+.view-dropdown option,
+select {
+    background: #27262F;
+    color: white;
+    text-align: center;
+    color: #FFF5E6;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+label {
+    color: #FFF5E6;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#sortby,
+#view-select {
+    background: #27262F;
+    padding: 0.2vw;
+    border-radius: 0.1vw;
+}
+
+.dropdown {
+    display: flex;
+}
