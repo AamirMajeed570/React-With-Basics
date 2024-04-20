@@ -13,7 +13,7 @@
 .container ul {
     display: flex;
     justify-content: flex-end;
-    padding: 12px;
+    padding: 0px;
 }
 
 .container #icon {
@@ -100,7 +100,7 @@ ul :last-child {
 }
 
 .sidebar-expanded {
-    width: 550px;
+    width: 500px;
     background: #27262F
     /* background: #27262F; */
     /* Adjust expanded width */

@@ -82,18 +82,19 @@ const Main = () => {
                   </select>
                 </div>
               </div>
-              {/* Cards */}
-              <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              {/* // This is For The Posts */}
+              <div className="card-box flex">
+                <div className="top-section flex items-center">
+                  <img src={man} className="w-12 h-12 mr-4" />{" "}
+                  {/* Adjust the width and height as needed */}
+                  <div>
+                    <h6 className="mb-1">Khan Khalid</h6>{" "}
+                    {/* Add margin-bottom to create space between h6 and p */}
+                    <p className="text-gray-500">12 minutes ago</p>{" "}
+                    {/* Adjust text color and style as needed */}
+                  </div>
                 </div>
               </div>
-            </div>
-            </div>
             </div>
           )}
         </div>
