@@ -101,6 +101,7 @@ ul :last-child {
 
 .sidebar-expanded {
     width: 550px;
+    background: #27262F
     /* background: #27262F; */
     /* Adjust expanded width */
 }

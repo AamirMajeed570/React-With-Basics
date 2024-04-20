@@ -29,7 +29,7 @@ h3 {
     display: flex;
     flex-direction: column;
     color: white;
-    width: 50%;
+    width: 40%;
     height: 10%;
 }
 
@@ -54,6 +54,8 @@ label {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    background: #27262F;
+    padding: 0.4vw;
 }
 
 #sortby,
@@ -65,4 +67,6 @@ label {
 
 .dropdown {
     display: flex;
+    justify-content: space-around;
+    background: #27262F
 }
