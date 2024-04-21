@@ -143,7 +143,7 @@ const Main = () => {
                     </div>
                     <div className="blogger-qa">
                       <div className="answer">
-                        <p>UNANSWERED</p>
+                        <p>ANSWERED</p>
                       </div>
                       <img src={Dots} alt="Image" />
                     </div>
@@ -226,6 +226,57 @@ const Main = () => {
                 </div>
                     </div>
                   </div>
+                <div className="myCard">
+                  <div className="first-card">
+                    <div className="blogger">
+                      <div>
+                        <img src={man} alt="" srcset="" />
+                      </div>
+                      <div className="name-image">
+                        <p>Khan Khalid</p>
+                        <p>12 minutes ago</p>
+                      </div>
+                    </div>
+                    <div className="blogger-qa">
+                      <div className="answer">
+                        <p>ANSWERED</p>
+                      </div>
+                      <img src={Dots} alt="Image" />
+                    </div>
+                  </div>
+                  <div className="challenge">
+                    <p>
+                      What do you identify as the biggest challenge facing
+                      designers in the next 20 years, and how might we begin to
+                      address it ?
+                    </p>
+                  </div>
+                  <div className="footer-btns">
+                    <div className="updown">
+                     <button> <img
+                        src={uparrow}
+                        style={{ color: "white" }}
+                        alt="Image"
+                      />{" "}
+                      <span>(70)</span></button>
+                      <button><img
+                        src={downarrow}
+                        style={{ color: "white" }}
+                        alt="Image"
+                      />{" "}
+                      <span>(00)</span></button>
+                    </div>
+                    <div className="hands">
+                      <button>Me Too (200)</button>
+                    </div>
+                    <div className="reply">
+                      <button id="reply">Reply</button>
+                </div>
+                    </div>
+                  </div>
+              </div>
+              <div className="textarea">
+                <textarea name="" id="" cols="60" rows="5"></textarea>
               </div>
             </div>
           )}
