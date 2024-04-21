@@ -57,10 +57,10 @@ ul :last-child {
 
 /* ! Right Side Bar */
 .right-sidebar {
-    width: 5%;
+    width: 10%;
     border: 1px solid #3F3E46;
     /* background: #2A2931; */
-    background: #2A2931;
+    /* background: #2A2931; */
     text-align: center;
     /* height: 90vh;
     z-index: 100; */
@@ -80,7 +80,7 @@ ul :last-child {
     position: absolute;
     top: 0;
     right: 0;
-    /* background-color: #27262F; */
+    background-color: #27262F;
     /* Adjust background color as needed */
     width: 50px;
     /* Set initial width */
@@ -102,20 +102,13 @@ ul :last-child {
 .sidebar-expanded {
     width: 500px;
     background: #27262F
-    /* background: #27262F; */
-    /* Adjust expanded width */
+        /* background: #27262F; */
+        /* Adjust expanded width */
 }
 
 .sidebar-icon {
     width: 10%;
     height: 80vh;
-    /* background: #27262F; */
+    background: #27262F;
     border: 1px solid #3F3E46;
 }
-
-/* .cross-icon{
-    overflow: hidden;
-    width: 10%;
-    float: right;
-    color: wheat;
-  } */

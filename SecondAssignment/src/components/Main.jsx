@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import man from "../assets/Man.svg";
 import Icon from "../assets/Icon.svg";
 import Vector from "../assets/Vector.svg";
-
+import Dots from "../assets/Dots.svg";
+import uparrow from "../assets/uparrow.svg";
+import downarrow from "../assets/downarrow.svg";
 import "./Main.css";
 import "./Sidebar.css";
-
+import "./Cards.css";
 const Main = () => {
   const [sidebarExpanded, setSidebarExpanded] = useState(false);
 
@@ -44,11 +46,7 @@ const Main = () => {
           onClick={toggleSidebar}
         >
           <div className="sidebar-icon">
-            <img
-              src={Vector}
-              alt=""
-              style={{ padding: "1.1vw", background: "#27262f" }}
-            />
+            <img src={Vector} alt="" style={{ background: "none" }} />
           </div>
           {sidebarExpanded && (
             <div
@@ -83,17 +81,151 @@ const Main = () => {
                 </div>
               </div>
               {/* // This is For The Posts */}
-              <div className="card-box flex">
-                <div className="top-section flex items-center">
-                  <img src={man} className="w-12 h-12 mr-4" />{" "}
-                  {/* Adjust the width and height as needed */}
-                  <div>
-                    <h6 className="mb-1">Khan Khalid</h6>{" "}
-                    {/* Add margin-bottom to create space between h6 and p */}
-                    <p className="text-gray-500">12 minutes ago</p>{" "}
-                    {/* Adjust text color and style as needed */}
+              <div className="four-cards">
+                <div className="myCard">
+                  <div className="first-card">
+                    <div className="blogger">
+                      <div>
+                        <img src={man} alt="" srcset="" />
+                      </div>
+                      <div className="name-image">
+                        <p>Khan Khalid</p>
+                        <p>12 minutes ago</p>
+                      </div>
+                    </div>
+                    <div className="blogger-qa">
+                      <div className="answer">
+                        <p>UNANSWERED</p>
+                      </div>
+                      <img src={Dots} alt="Image" />
+                    </div>
                   </div>
+                  <div className="challenge">
+                    <p>
+                      What do you identify as the biggest challenge facing
+                      designers in the next 20 years, and how might we begin to
+                      address it ?
+                    </p>
+                  </div>
+                  <div className="footer-btns">
+                    <div className="updown">
+                     <button> <img
+                        src={uparrow}
+                        style={{ color: "white" }}
+                        alt="Image"
+                      />{" "}
+                      <span>(70)</span></button>
+                      <button><img
+                        src={downarrow}
+                        style={{ color: "white" }}
+                        alt="Image"
+                      />{" "}
+                      <span>(00)</span></button>
+                    </div>
+                    <div className="hands">
+                      <button>Me Too (200)</button>
+                    </div>
+                    <div className="reply">
+                      <button id="reply">Reply</button>
                 </div>
+                    </div>
+                  </div>
+                <div className="myCard">
+                  <div className="first-card">
+                    <div className="blogger">
+                      <div>
+                        <img src={man} alt="" srcset="" />
+                      </div>
+                      <div className="name-image">
+                        <p>Khan Khalid</p>
+                        <p>12 minutes ago</p>
+                      </div>
+                    </div>
+                    <div className="blogger-qa">
+                      <div className="answer">
+                        <p>UNANSWERED</p>
+                      </div>
+                      <img src={Dots} alt="Image" />
+                    </div>
+                  </div>
+                  <div className="challenge">
+                    <p>
+                      What do you identify as the biggest challenge facing
+                      designers in the next 20 years, and how might we begin to
+                      address it ?
+                    </p>
+                  </div>
+                  <div className="footer-btns">
+                    <div className="updown">
+                     <button> <img
+                        src={uparrow}
+                        style={{ color: "white" }}
+                        alt="Image"
+                      />{" "}
+                      <span>(70)</span></button>
+                      <button><img
+                        src={downarrow}
+                        style={{ color: "white" }}
+                        alt="Image"
+                      />{" "}
+                      <span>(00)</span></button>
+                    </div>
+                    <div className="hands">
+                      <button>Me Too (200)</button>
+                    </div>
+                    <div className="reply">
+                      <button id="reply">Reply</button>
+                </div>
+                    </div>
+                  </div>
+                <div className="myCard">
+                  <div className="first-card">
+                    <div className="blogger">
+                      <div>
+                        <img src={man} alt="" srcset="" />
+                      </div>
+                      <div className="name-image">
+                        <p>Khan Khalid</p>
+                        <p>12 minutes ago</p>
+                      </div>
+                    </div>
+                    <div className="blogger-qa">
+                      <div className="answer">
+                        <p>UNANSWERED</p>
+                      </div>
+                      <img src={Dots} alt="Image" />
+                    </div>
+                  </div>
+                  <div className="challenge">
+                    <p>
+                      What do you identify as the biggest challenge facing
+                      designers in the next 20 years, and how might we begin to
+                      address it ?
+                    </p>
+                  </div>
+                  <div className="footer-btns">
+                    <div className="updown">
+                     <button> <img
+                        src={uparrow}
+                        style={{ color: "white" }}
+                        alt="Image"
+                      />{" "}
+                      <span>(70)</span></button>
+                      <button><img
+                        src={downarrow}
+                        style={{ color: "white" }}
+                        alt="Image"
+                      />{" "}
+                      <span>(00)</span></button>
+                    </div>
+                    <div className="hands">
+                      <button>Me Too (200)</button>
+                    </div>
+                    <div className="reply">
+                      <button id="reply">Reply</button>
+                </div>
+                    </div>
+                  </div>
               </div>
             </div>
           )}
