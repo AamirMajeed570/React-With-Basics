@@ -58,7 +58,7 @@ const Main = () => {
               <div className="qa">
                 <h4>Q&A</h4>
                 {/* <span>An easy Way for Everyone To ask Questions</span> */}
-                <h3>X</h3>
+                <h3 onClick={toggleSidebar}>X</h3>
               </div>
               <div className="dropdown">
                 <div className="view-dropdown">
@@ -274,9 +274,9 @@ const Main = () => {
                 </div>
                     </div>
                   </div>
-              </div>
               <div className="textarea">
-                <textarea name="" id="" cols="60" rows="5"></textarea>
+                <textarea name="" id="" cols="40" rows="6">jsck</textarea>
+              </div>
               </div>
             </div>
           )}

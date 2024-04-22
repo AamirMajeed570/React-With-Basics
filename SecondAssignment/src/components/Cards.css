@@ -132,3 +132,13 @@
     margin: 1.1vw;
     /* height: 60vh; */
 }
+.textarea {
+    position: absolute;
+    bottom: -10%;
+    width: 85%;
+    border: 2px solid;
+  }
+.textarea textarea{
+    border: none;
+    color: wheat;
+}
