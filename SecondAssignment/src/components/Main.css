@@ -94,7 +94,7 @@ ul :last-child {
 
 .card {
     width: 88%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
 
 }
@@ -102,8 +102,7 @@ ul :last-child {
 .sidebar-expanded {
     width: 500px;
     background: #27262F
-        /* background: #27262F; */
-        /* Adjust expanded width */
+    /* Adjust expanded width */
 }
 
 .sidebar-icon {

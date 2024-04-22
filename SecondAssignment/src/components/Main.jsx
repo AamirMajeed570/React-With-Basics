@@ -109,27 +109,32 @@ const Main = () => {
                   </div>
                   <div className="footer-btns">
                     <div className="updown">
-                     <button> <img
-                        src={uparrow}
-                        style={{ color: "white" }}
-                        alt="Image"
-                      />{" "}
-                      <span>(70)</span></button>
-                      <button><img
-                        src={downarrow}
-                        style={{ color: "white" }}
-                        alt="Image"
-                      />{" "}
-                      <span>(00)</span></button>
+                      <button>
+                        {" "}
+                        <img
+                          src={uparrow}
+                          style={{ color: "white" }}
+                          alt="Image"
+                        />{" "}
+                        <span>(70)</span>
+                      </button>
+                      <button>
+                        <img
+                          src={downarrow}
+                          style={{ color: "white" }}
+                          alt="Image"
+                        />{" "}
+                        <span>(00)</span>
+                      </button>
                     </div>
                     <div className="hands">
                       <button>Me Too (200)</button>
                     </div>
                     <div className="reply">
                       <button id="reply">Reply</button>
-                </div>
                     </div>
                   </div>
+                </div>
                 <div className="myCard">
                   <div className="first-card">
                     <div className="blogger">
@@ -157,27 +162,32 @@ const Main = () => {
                   </div>
                   <div className="footer-btns">
                     <div className="updown">
-                     <button> <img
-                        src={uparrow}
-                        style={{ color: "white" }}
-                        alt="Image"
-                      />{" "}
-                      <span>(70)</span></button>
-                      <button><img
-                        src={downarrow}
-                        style={{ color: "white" }}
-                        alt="Image"
-                      />{" "}
-                      <span>(00)</span></button>
+                      <button>
+                        {" "}
+                        <img
+                          src={uparrow}
+                          style={{ color: "white" }}
+                          alt="Image"
+                        />{" "}
+                        <span>(70)</span>
+                      </button>
+                      <button>
+                        <img
+                          src={downarrow}
+                          style={{ color: "white" }}
+                          alt="Image"
+                        />{" "}
+                        <span>(00)</span>
+                      </button>
                     </div>
                     <div className="hands">
                       <button>Me Too (200)</button>
                     </div>
                     <div className="reply">
                       <button id="reply">Reply</button>
-                </div>
                     </div>
                   </div>
+                </div>
                 <div className="myCard">
                   <div className="first-card">
                     <div className="blogger">
@@ -205,27 +215,32 @@ const Main = () => {
                   </div>
                   <div className="footer-btns">
                     <div className="updown">
-                     <button> <img
-                        src={uparrow}
-                        style={{ color: "white" }}
-                        alt="Image"
-                      />{" "}
-                      <span>(70)</span></button>
-                      <button><img
-                        src={downarrow}
-                        style={{ color: "white" }}
-                        alt="Image"
-                      />{" "}
-                      <span>(00)</span></button>
+                      <button>
+                        {" "}
+                        <img
+                          src={uparrow}
+                          style={{ color: "white" }}
+                          alt="Image"
+                        />{" "}
+                        <span>(70)</span>
+                      </button>
+                      <button>
+                        <img
+                          src={downarrow}
+                          style={{ color: "white" }}
+                          alt="Image"
+                        />{" "}
+                        <span>(00)</span>
+                      </button>
                     </div>
                     <div className="hands">
                       <button>Me Too (200)</button>
                     </div>
                     <div className="reply">
                       <button id="reply">Reply</button>
-                </div>
                     </div>
                   </div>
+                </div>
                 <div className="myCard">
                   <div className="first-card">
                     <div className="blogger">
@@ -253,30 +268,38 @@ const Main = () => {
                   </div>
                   <div className="footer-btns">
                     <div className="updown">
-                     <button> <img
-                        src={uparrow}
-                        style={{ color: "white" }}
-                        alt="Image"
-                      />{" "}
-                      <span>(70)</span></button>
-                      <button><img
-                        src={downarrow}
-                        style={{ color: "white" }}
-                        alt="Image"
-                      />{" "}
-                      <span>(00)</span></button>
+                      <button>
+                        {" "}
+                        <img
+                          src={uparrow}
+                          style={{ color: "white" }}
+                          alt="Image"
+                        />{" "}
+                        <span>(70)</span>
+                      </button>
+                      <button>
+                        <img
+                          src={downarrow}
+                          style={{ color: "white" }}
+                          alt="Image"
+                        />{" "}
+                        <span>(00)</span>
+                      </button>
                     </div>
                     <div className="hands">
                       <button>Me Too (200)</button>
                     </div>
                     <div className="reply">
                       <button id="reply">Reply</button>
-                </div>
                     </div>
                   </div>
-              <div className="textarea">
-                <textarea name="" id="" cols="40" rows="6">jsck</textarea>
-              </div>
+                </div>
+                <div className="textarea">
+                  <textarea name="" id="" cols="40" rows="4"></textarea>
+                  <div className="emoji-icon">
+                    <h2 style={{ color: "white" }}>&#128512;</h2>
+                  </div>
+                </div>
               </div>
             </div>
           )}
