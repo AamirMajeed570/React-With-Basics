@@ -95,16 +95,16 @@
     background: none;
     color: wheat;
     border-left: 1px;
-    /* margin-left: 0.5vw; */
+    margin-left: 0.5vw;
     border-radius: 5px;
-    border: 2px solid white;
+    border: 2px solid #27262f
 }
 
 .hands button {
     /* background: transparent; */
     color: white;
     padding: 0.1vw;
-    border: 2px solid;
+    border: 2px solid #27262f;
     margin-left: 0.8vw;
     border-radius: 8px;
 }
