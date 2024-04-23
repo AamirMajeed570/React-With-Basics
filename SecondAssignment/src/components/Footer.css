@@ -1,4 +1,6 @@
 footer {
+    width: 70%;
+    border: 2px solid;
     display: flex;
     padding: 0px 24px;
     justify-content: space-between;
@@ -30,7 +32,7 @@ footer {
 }
 
 .first-part>img {
-    margin: 0.8vw;
+    margin: 1.8vw;
 }
 
 .meeting-host {

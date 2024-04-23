@@ -23,6 +23,7 @@ h3 {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.5px;
+    cursor: pointer;
 }
 
 .sortBy-dropdown,

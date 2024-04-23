@@ -14,6 +14,7 @@
     display: flex;
     justify-content: flex-end;
     padding: 0px;
+    margin-left: 20vw;
 }
 
 .container #icon {
@@ -64,6 +65,7 @@ ul :last-child {
     text-align: center;
     /* height: 90vh;
     z-index: 100; */
+    /* cursor: auto; */
 }
 
 .middle-section {
@@ -74,6 +76,7 @@ ul :last-child {
     justify-content: flex-start;
     /* Align items to the start (left) */
     transition: margin-right 0.5s;
+    cursor: auto;
 }
 
 .right-sidebar {
@@ -90,6 +93,7 @@ ul :last-child {
     transition: width 0.5s;
     /* Add transition for width */
     display: flex;
+    cursor: auto;
 }
 
 .card {
@@ -110,4 +114,5 @@ ul :last-child {
     height: 80vh;
     background: #27262F;
     border: 1px solid #3F3E46;
+    cursor: pointer;
 }

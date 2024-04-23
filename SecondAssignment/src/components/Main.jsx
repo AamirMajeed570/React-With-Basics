@@ -14,25 +14,25 @@ const Main = () => {
       id: 1,
       answered: true,
       content:
-        "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet ;",
+        "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
     {
       id: 2,
       answered: false,
       content:
-        "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet ;",
+        "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
     {
       id: 3,
       answered: true,
       content:
-        "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet ;",
+        "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
     {
       id: 4,
       answered: false,
       content:
-        "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet ;",
+        "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
   ];
   const [selectedFilter,setSelectedFilter] = useState("all")
@@ -131,7 +131,7 @@ const Main = () => {
                         </div>
                       </div>
                       <div className="blogger-qa">
-                        <div className="answer">
+                        <div className={`answer`}>
                           <p>{data.answered ? "ANSWERED" : "UNANSWERED"}</p>
                         </div>
                         <img src={Dots} alt="Image" />
@@ -330,9 +330,9 @@ const Main = () => {
                   </div>
                 </div> */}
                 <div className="textarea">
-                  <textarea name="" id="" cols="40" rows="4"></textarea>
+                  <textarea name="" id="" cols="40" rows="4" placeholder="Post a Question..."></textarea>
                   <div className="emoji-icon">
-                    <h2 style={{ color: "white" }}>&#128512;</h2>
+                    {/* <h2 style={{ color: "white" }}>&#128512;</h2> */}
                   </div>
                 </div>
               </div>
