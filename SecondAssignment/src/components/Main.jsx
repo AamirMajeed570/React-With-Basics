@@ -13,37 +13,54 @@ const Main = () => {
     {
       id: 1,
       answered: true,
+      time:12,
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
     {
       id: 2,
       answered: false,
+      time:10,
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
     {
       id: 3,
       answered: true,
+      time:5,
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
     {
       id: 4,
       answered: false,
+      time:10,
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
   ];
   const [selectedFilter,setSelectedFilter] = useState("all")
+  const [sortFilter,setSortedFilter] = useState()
+  const [counter,setCounter] = useState(0);
+  const [color,setColor] = useState("blue")
+  const handleColor = ()=>{
+    setColor(color);
+  }
+  const handleClick = ()=>{
+    setCounter(counter+1);
+    console.log(counter)
+  }
+  
+  
   const filteredCards = cardsData.filter((card)=>{
     if(selectedFilter==="all") return true;
     if(selectedFilter==="answered") return card.answered
     if(selectedFilter==="unanswered") return !card.answered
   })
+  
   const now = new Date();
   const timeString = now.toLocaleTimeString();
-  console.log(`Current time: ${timeString}`);
+  // console.log(`Current time: ${timeString}`);
   const [sidebarExpanded, setSidebarExpanded] = useState(false);
 
   const toggleSidebar = () => {
@@ -107,7 +124,9 @@ const Main = () => {
                 </div>
                 <div className="sortBy-dropdown">
                   <label htmlFor="sortby">Sort by</label>
-                  <select name="sort" id="sortby">
+                  <select name="sort" id="sortby" value={sortFilter} onChange={(e)=>{
+                    setSortedFilter(e.target.value)
+                  }}>
                     <option value="Upvotes">Upvotes</option>
                     <option value="Me Too">Me Too</option>
                     <option value="Oldest">Oldest</option>
@@ -126,8 +145,7 @@ const Main = () => {
                         </div>
                         <div className="name-image">
                           <p>Khan Khalid</p>
-                          {/* Assuming 'timeString' is defined */}
-                          <p>{timeString}</p>
+                          <p>{data.time} minutes ago</p>
                         </div>
                       </div>
                       <div className="blogger-qa">
@@ -142,14 +160,14 @@ const Main = () => {
                     </div>
                     <div className="footer-btns">
                       <div className="updown">
-                        <button>
+                        <button onClick={handleClick}>
                           {" "}
                           <img
                             src={uparrow}
                             style={{ color: "white" }}
                             alt="Image"
                           />{" "}
-                          <span>(70)</span>
+                          <span>{counter}</span>
                         </button>
                         <button>
                           <img
