@@ -32,7 +32,6 @@ h3 {
     flex-direction: column;
     color: white;
     width: 40%;
-    height: 10%;
 }
 
 .sortBy-dropdown option,
@@ -47,7 +46,9 @@ select {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    border: 2px solid;
 }
+
 
 label {
     color: #FFF5E6;
@@ -67,11 +68,13 @@ label {
     border-radius: 0.1vw;
 }
 
-
+#time{
+    margin-top: -0.4rem;
+}
 
 
 .dropdown {
     display: flex;
     justify-content: space-around;
-    background: #27262F
+    background: #27262F;
 }

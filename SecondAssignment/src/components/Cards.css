@@ -1,4 +1,8 @@
+*{
+    background: #27262F;
+}
 .four-cards {
+    /* background: #3B3A41; */
     /* background: #27262F; */
     /* border: 2px solid red; */
     /* display:flex; */
@@ -21,6 +25,8 @@
     border: 2px solid rgb(82, 79, 72);
     padding: 6px;
     margin: 4px;
+    background: #27262F;
+    /* background: #3B3A41; */
 }
 
 .name-image {
@@ -31,7 +37,7 @@
 
 .blogger {
     display: flex;
-
+    background: #27262F;
 }
 
 .name-image :nth-child(1) {
@@ -47,6 +53,8 @@
 
 .name-image :nth-child(2) {
     font-size: 10px;
+    background: #27262F;
+    margin-top: -0.4rem;
 }
 
 .blogger-qa {
@@ -56,19 +64,22 @@
 
 
 .answer p {
-    width: 6vw;
+    width: 7vw;
     height: 2vh;
     background: #ffcc82;
     margin: 5% 0%;
     border-radius: 12px;
     color: black;
     color: #000;
-    text-align: center;
+    /* text-align: center; */
     font-family: Inter;
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    /* display: inline-block; */
 }
 
 .challenge {
@@ -87,7 +98,7 @@
 .updown {
     /* width: 30%; */
     /* border: 2px solid; */
-    border-radius: 8px;
+    /* border-radius: 8px; */
 
 }
 
@@ -95,24 +106,25 @@
     background: none;
     color: wheat;
     border-left: 1px;
-    margin-left: 0.5vw;
-    border-radius: 5px;
+    padding: 0.2rem;
+    /* margin-left: 0.5vw; */
+    /* border-radius: 5px; */
     border: 2px solid #27262f
 }
 
 .hands button {
     /* background: transparent; */
     color: white;
-    padding: 0.1vw;
+    padding: 0.2rem;
     border: 2px solid #27262f;
     margin-left: 0.8vw;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 
 .reply{
     display: flex;
     height: 32px;
-    padding: 4px;
+    padding: 0.2rem;
     justify-content: center;
     align-items: center;
     gap: 1px;
@@ -124,8 +136,14 @@
     border: 1px solid #27262F;
     background: #FFF;
     width: 70%;
-    height: 120%;
+    height: 130%;
 }
+
+.reply button:hover{
+    background: #161414;
+    color: white;
+}
+
 .footer-btns{
     display: flex;
     justify-content: space-between;

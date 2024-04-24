@@ -2,22 +2,22 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background: #11131A;
+    background: #212125;
 }
 
-.container {
+.container-container {
     width: 100%;
     height: 20%;
 }
 
-.container ul {
+.container-container ul {
     display: flex;
     justify-content: flex-end;
     padding: 0px;
     margin-left: 20vw;
 }
 
-.container #icon {
+.container-container #icon {
     margin-top: 19px;
 }
 
@@ -35,7 +35,7 @@ ul :last-child {
 .video-title {
     width: 80vw;
     height: 80vh;
-    background: black;
+    background: #161618;
     margin: auto;
     border-radius: 10px;
     display: flex;
@@ -66,6 +66,7 @@ ul :last-child {
     /* height: 90vh;
     z-index: 100; */
     /* cursor: auto; */
+    background: #3B3A41;
 }
 
 .middle-section {
@@ -83,7 +84,10 @@ ul :last-child {
     /* position: absolute;
     top: 0;
     right: 0; */
-    background-color: #27262F;
+    /* background-color: #27262F; */
+    background: #3B3A41;
+
+
     /* Adjust background color as needed */
     width: 50px;
     /* Set initial width */

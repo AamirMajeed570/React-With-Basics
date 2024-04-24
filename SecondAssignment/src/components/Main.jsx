@@ -42,10 +42,7 @@ const Main = () => {
   const [selectedFilter,setSelectedFilter] = useState("all")
   const [sortFilter,setSortedFilter] = useState("Oldest")
   const [counter,setCounter] = useState(0);
-  const [color,setColor] = useState("blue")
-  const handleColor = ()=>{
-    setColor(color);
-  }
+
   const handleClick = ()=>{
     setCounter(counter+1);
     console.log(counter)
@@ -80,7 +77,7 @@ const Main = () => {
   };
   return (
     <>
-      <nav className="container">
+      <nav className="container-container">
         <ul>
           <li>
             <img src="../../../public/Images/schedule.png" />
@@ -154,7 +151,7 @@ const Main = () => {
                         </div>
                         <div className="name-image">
                           <p>Khan Khalid</p>
-                          <p>{data.time} minutes ago</p>
+                          <p id="time">{data.time} minutes ago</p>
                         </div>
                       </div>
                       <div className="blogger-qa">
@@ -169,16 +166,16 @@ const Main = () => {
                     </div>
                     <div className="footer-btns">
                       <div className="updown">
-                        <button onClick={handleClick}>
+                        <button onClick={handleClick} style={{border:"2px solid white"}}>
                           {" "}
                           <img
                             src={uparrow}
                             style={{ color: "white" }}
                             alt="Image"
                           />{" "}
-                          <span>{counter}</span>
+                          <span>{counter}0</span>
                         </button>
-                        <button>
+                        <button style={{border:"2px solid white"}}>
                           <img
                             src={downarrow}
                             style={{ color: "white" }}
@@ -188,7 +185,7 @@ const Main = () => {
                         </button>
                       </div>
                       <div className="hands">
-                        <button>Me Too (200)</button>
+                        <button style={{border:"2px solid white"}}>Me Too (200)</button>
                       </div>
                       <div className="reply">
                         <button id="reply">Reply</button>
