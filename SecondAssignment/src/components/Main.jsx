@@ -20,7 +20,7 @@ const Main = () => {
     {
       id: 2,
       answered: false,
-      time:10,
+      time:7,
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
@@ -173,7 +173,7 @@ const Main = () => {
                             style={{ color: "white" }}
                             alt="Image"
                           />{" "}
-                          <span>{counter}0</span>
+                          <span>{counter}</span>
                         </button>
                         <button style={{border:"2px solid white"}}>
                           <img
