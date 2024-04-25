@@ -25,7 +25,7 @@ const Footer = () => {
     <>
         <footer>
         <div className="first-part">
-          <img src="../../../public/Images/Inbox.png" alt="" />
+          {/* <img src="../../../public/Images/Inbox.png" alt="" /> */}
           <img src={man} alt="" />
           <div className="meeting-host">
             <p>

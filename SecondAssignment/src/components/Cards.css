@@ -10,12 +10,14 @@
     margin: 2%;
     max-height: 70vh;
     overflow-y: auto;
+    scrollbar-color: #27262F #27262F;
 }
 
 .first-card {
     display: flex;
     justify-content: space-between;
     margin: 2%;
+    width: 100%;
     /* background: #27262F; */
     /* border: 2px solid; */
 }
@@ -119,6 +121,11 @@
     border: 2px solid #27262f;
     margin-left: 0.8vw;
     /* border-radius: 8px; */
+}
+
+.hands button:hover{
+    background: #FFF;
+    color: #000;
 }
 
 .reply{

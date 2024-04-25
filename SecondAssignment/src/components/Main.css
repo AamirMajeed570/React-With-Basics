@@ -117,6 +117,10 @@ ul :last-child {
     width: 10%;
     height: 80vh;
     background: #27262F;
-    border: 1px solid #3F3E46;
     cursor: pointer;
+    padding: 0.3rem;
+}
+.sidebar-icon img{
+    width: 30px;
+    height: 50px;
 }
