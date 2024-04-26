@@ -41,7 +41,7 @@ const Main = () => {
   ];
   const [selectedFilter,setSelectedFilter] = useState("all")
   const [sortFilter,setSortedFilter] = useState("Oldest")
-  const [counter,setCounter] = useState(0);
+  const [counter,setCounter] = useState(70);
 
   const handleClick = ()=>{
     setCounter(counter+1);
@@ -158,7 +158,7 @@ const Main = () => {
                         <div className={`answer`}>
                           <p>{data.answered ? "ANSWERED" : "UNANSWERED"}</p>
                         </div>
-                        <img src={Dots} alt="Image" />
+                        <img className="dots" src={Dots} alt="Image" />
                       </div>
                     </div>
                     <div className="challenge">
@@ -166,7 +166,7 @@ const Main = () => {
                     </div>
                     <div className="footer-btns">
                       <div className="updown">
-                        <button onClick={handleClick} style={{border:"2px solid white"}}>
+                        <button onClick={handleClick} style={{border:"2px solid white",borderRight:"0px",borderRadius:"4px"}}>
                           {" "}
                           <img
                             src={uparrow}
@@ -175,7 +175,7 @@ const Main = () => {
                           />{" "}
                           <span>{counter}</span>
                         </button>
-                        <button style={{border:"2px solid white"}}>
+                        <button style={{border:"2px solid white",borderRadius:"4px"}}>
                           <img
                             src={downarrow}
                             style={{ color: "white" }}
