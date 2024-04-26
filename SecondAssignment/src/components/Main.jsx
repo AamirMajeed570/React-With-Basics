@@ -42,6 +42,7 @@ const Main = () => {
   const [selectedFilter,setSelectedFilter] = useState("all")
   const [sortFilter,setSortedFilter] = useState("Oldest")
   const [counter,setCounter] = useState(70);
+  
 
   const handleClick = ()=>{
     setCounter(counter+1);
@@ -121,7 +122,7 @@ const Main = () => {
               <div className="dropdown">
                 <div className="view-dropdown">
                   <label htmlFor="view-select">View</label>
-                  <select name="view" id="view-select" value={selectedFilter} onChange={(e)=>setSelectedFilter(e.target.value)}>
+                  <select name="view" id="view-select" value={selectedFilter} onChange={(e)=>setSelectedFilter(e.target.value)} style={{background: "#3B3A41"}}>
                     <option value="all">All</option>
                     <option value="answered">Answered</option>
                     <option value="my-questions">My Questions</option>
@@ -132,8 +133,8 @@ const Main = () => {
                   <label htmlFor="sortby">Sort by</label>
                   <select name="sort" id="sortby" value={sortFilter} onChange={(e)=>{
                     setSortedFilter(e.target.value)
-                  }}>
-                    <option value="Upvotes">Upvotes</option>
+                  }} style={{background: "#3B3A41"}}>
+                    <option id="opt" value="Upvotes">Upvotes</option>
                     <option value="Me Too">Me Too</option>
                     <option value="Oldest">Oldest</option>
                     <option value="Latest">Latest</option>
@@ -156,7 +157,7 @@ const Main = () => {
                       </div>
                       <div className="blogger-qa">
                         <div className={`answer`}>
-                          <p>{data.answered ? "ANSWERED" : "UNANSWERED"}</p>
+                          <p className={`${data.answered?"answered":"unanswered"}`}>{data.answered ? "ANSWERED" : "UNANSWERED"}</p>
                         </div>
                         <img className="dots" src={Dots} alt="Image" />
                       </div>

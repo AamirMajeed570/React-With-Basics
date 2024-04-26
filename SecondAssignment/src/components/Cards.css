@@ -115,6 +115,7 @@
     /* border-radius: 5px; */
     border: 2px solid #27262f;
     height: 32px;
+    /* font-size: ; */
 }
 
 .hands button {
@@ -129,6 +130,7 @@
 .hands button {
     width: 106px;
     height: 32px;
+    font-size: 13px;
     padding: 4px 0px 0px 0px;
     gap: 4px;
     border-radius: 4px;
@@ -170,7 +172,7 @@
     /* angle: -180 deg; */
     font-family: Inter;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
     /* font-size: var(--Spacing3); */
 
 
@@ -200,7 +202,7 @@
 
 .textarea textarea {
     color: wheat;
-    width: 120%;
+    width: 115%;
     border-radius: 6px;
 }
 
@@ -221,3 +223,11 @@
 .blogger-qa .dots {
     margin-bottom: 1rem;
 }
+.answered {
+    background-color: #85A8EE; /* Change this to your desired color */
+  }
+  
+  .unanswered {
+    background-color: #FFB6B6; /* Change this to your desired color */
+  }
+  
