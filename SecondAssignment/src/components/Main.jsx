@@ -38,6 +38,13 @@ const Main = () => {
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
+    {
+      id: 5,
+      answered: false,
+      time:6,
+      content:
+        "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
+    },
   ];
   const [selectedFilter,setSelectedFilter] = useState("all")
   const [sortFilter,setSortedFilter] = useState("Oldest")
@@ -117,7 +124,7 @@ const Main = () => {
               <div className="qa">
                 <h4>Q&A</h4>
                 {/* <span>An easy Way for Everyone To ask Questions</span> */}
-                <h3 onClick={toggleSidebar}>X</h3>
+                <h5 onClick={toggleSidebar}>X</h5>
               </div>
               <div className="dropdown">
                 <div className="view-dropdown">

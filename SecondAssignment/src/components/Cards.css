@@ -20,10 +20,10 @@
 }
 
 .myCard {
-    /* border-radius: 2px  rgb(220, 200, 179); */
+    border-radius: 10px ;
     border: 2px solid rgb(82, 79, 72);
     /* padding: 6px; */
-    margin: 4px;
+    margin-top: 1rem;
     background: #27262F;
     /* background: #3B3A41; */
 }
@@ -83,6 +83,7 @@
     
 
 }
+
 
 .challenge {
     width: 90%;
@@ -192,7 +193,7 @@
 
 .textarea {
     position: absolute;
-    bottom: -8%;
+    bottom: -18%;
     /* width: 55%; */
     border: #27262F;
     margin: 5px;
@@ -202,7 +203,7 @@
 
 .textarea textarea {
     color: wheat;
-    width: 115%;
+    width: 116%;
     border-radius: 6px;
 }
 

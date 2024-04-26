@@ -81,7 +81,7 @@ ul :last-child {
     /* Adjust background color as needed */
     width: 100px;
     /* Set initial width */
-    height: 100%;
+    height: 110%;
     /* Fill the entire height */
     cursor: pointer;
     transition: width 0.5s;
@@ -102,6 +102,8 @@ ul :last-child {
     background: #27262F;
     /* Adjust expanded width */
     border: 1px solid gray;
+    height: 90vh;
+    border-bottom: none;
 }
 
 .sidebar-icon {

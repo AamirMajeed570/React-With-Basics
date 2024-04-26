@@ -10,7 +10,7 @@ import Dots from "../assets/Dots.svg";
 import UnmuteSvg from '../assets/Unmute.svg'
 import man from '../assets/Man.svg'
 import closeVideoIcon from '../assets/CloseVideo.svg'
-
+import Icon from '../assets/Inbox.svg'
 const Footer = () => {
     const [muted,setMuted] = useState(false)
     const [closed,setClose] = useState(false)
@@ -25,13 +25,12 @@ const Footer = () => {
     <>
         <footer>
         <div className="first-part">
-          {/* <img src="../../../public/Images/Inbox.png" alt="" /> */}
+          <img src={Icon} alt="" />
           <img src={man} alt="" />
           <div className="meeting-host">
             <p>
               Khan Khalid - <span>Manager Marketing</span>
             </p>
-            <p id="host">Host</p>
           </div>
         </div>
         <div className="second-part">
