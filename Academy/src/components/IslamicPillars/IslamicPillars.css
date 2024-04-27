@@ -1,0 +1,64 @@
+.islamic-pillars {
+    width: 98.4vw;
+    height: 246px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Qalima {
+    height: 114px;
+    width: 115px;
+    /* gap: 10px; */
+    border-radius: 200px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #D39C41;
+}
+
+.pillars {
+    width: 189.43px;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Qalima,
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Qalima-text {
+    width: 190px;
+    height: 109px;
+    text-align: center;
+    padding: 10px;
+}
+
+.Qalima-text :first-child {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.011em;
+    text-align: center;
+}
+@media only screen and (max-width:700px){
+    .islamic-pillars,
+    .pillars{
+        display: none;
+    }
+    .Qalima img{
+        display: none;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:1200px){
+    .Qalima img{
+        width: 76px;
+        height: 62px;
+        padding-top: 0px;
+    }
+}

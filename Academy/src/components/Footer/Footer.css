@@ -1,0 +1,269 @@
+.top-footer {
+    width: 1160px;
+    height: 371px;
+    top: 5305px;
+    padding: 36px 255px 36px 255px;
+    background-image: url('../../../public/Images/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    padding-top: 40px;
+}
+
+.top-footer p:nth-child(2) {
+    width: 760px;
+    height: 60px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.top-footer p:nth-child(3) {
+    font-family: Amiri;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    top: -60px;
+    padding-top: 40px;
+}
+
+.top-footer p:nth-child(4) {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    position: relative;
+    top: -90px;
+}
+
+.bottom-footer {
+    width: 1160px;
+    height: 471px;
+    padding-top: 20px;
+    padding: 36px 255px 200px 255px;
+    background-image: url('../../../public/Images/masjid.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: -120px;
+}
+
+.advance-courses,
+.links,
+.admissions,
+.regular-courses {
+    width: 340px;
+    height: 320px;
+    padding: 4px;
+    text-align: left;
+    padding-top: 630px;
+
+}
+
+.footer-social-links {
+    width: 340px;
+    padding-top: 600px;
+}
+
+li {
+    list-style-type: none;
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.links ul li,
+.advance-courses ul li,
+.admissions ul li,
+.regular-courses ul li {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.bottom-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.regular-courses h1 {
+    padding-left: 27px;
+}
+
+.advance-courses h1 {
+    padding-left: 27px;
+}
+
+.links h1 {
+    padding-left: 30px;
+}
+
+.admissions h1 {
+    padding-left: 35px;
+}
+
+footer li::before {
+    content: "";
+    background-color: #075e54;
+    width: 0;
+}
+
+li::before {
+    display: inline-block;
+}
+
+footer li:hover::before {
+    width: 100%;
+}
+
+footer a:hover {
+    color: #fff;
+    background-color: #73e627;
+}
+
+.advance-courses ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.admissions ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.regular-courses ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.links ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.reach-links {
+    border: 2px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 4px;
+}
+
+.admissions li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.admissions a:hover {
+    color: #0c0b07;
+}
+
+.reach-links:hover {
+    background-color: black;
+    color: white;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .top-footer {
+        width: 90%;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .bottom-footer {
+        height: 500px;
+        background: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .regular-courses h1 {
+        padding-left: 27px;
+        text-align: left;
+    }
+
+    .advance-courses {
+        position: relative;
+        top: -598px;
+        left: -77%;
+    }
+
+    .links {
+        width: 340px;
+        height: 320px;
+        padding: 4px;
+        text-align: left;
+        position: relative;
+        padding-top: 630px;
+        top: -139%;
+        left: -27%;
+
+    }
+    .admissions {
+        padding-top: 623px;
+        position: relative;
+        top: -163%;
+        left: -134%;
+    }
+    .regular-courses{
+        position: relative;
+        top: -160%;
+        left: 22%;
+    }
+    .top-footer {
+        height: auto;
+        margin-top: 80px
+    }
+    .footer-social-links {
+        width: 340px;
+        padding-top: 600px;
+        position: relative;
+        top: -283%;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:1200px){
+    .top-footer{
+        width: 480px;
+    }
+    .bottom-footer{
+        width: 480px;
+    }
+    .advance-courses, .links, .admissions, .regular-courses {
+        width: 340px;
+        height: 320px;
+        position: relative;
+        left: -38%;
+    }
+    .footer-social-links {
+        width: 364px;
+        display: flex;
+        position: relative;
+        left: -122%;
+        top: 41%;
+        align-content: space-around;
+        align-items: center;
+    }
+
+}

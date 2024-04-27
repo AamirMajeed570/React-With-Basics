@@ -1,0 +1,8 @@
+.container{
+    height: 40vh;
+      width: 40vw;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 21px;
+  }

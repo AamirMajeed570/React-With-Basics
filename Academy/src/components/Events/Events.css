@@ -1,0 +1,342 @@
+.events-container {
+    width: 1510px;
+    height: 650px;
+    padding: 0px 80px 0px 80px;
+    gap: 10px;
+    opacity: 0px;
+    background: #FFFFFF;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.events-container img {
+    width: 626px;
+    height: 615px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    margin: 22px;
+}
+
+.events-workshop {
+    width: 525px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.events-text {
+    width: 525px;
+    height: 51px;
+}
+
+.workshop {
+    width: 525px;
+    height: 300px;
+    opacity: 0px;
+    border: 1px solid gray;
+    margin-top: 80px;
+    display: flex;
+}
+
+.date {
+    width: 58px;
+    height: 266px;
+    margin: 10px 0px 0px 10px;
+}
+
+.date p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.011em;
+    text-align: left;
+
+}
+
+.date span {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.ramadhan-workshop {
+    width: 466px;
+    height: 266px;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+
+.ramadhan-workshop p:nth-child(1) {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.ramadhan-workshop p:nth-child(2) {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.ramadhan-workshop p:nth-child(3) {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.ramadhan-workshop p:nth-child(4) {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.ramadhan-workshop p:nth-child(5) {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: -0.011em;
+    margin-left: 60px;
+}
+
+h4>span {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: -0.011em;
+    color: #D39C41;
+}
+
+.card-reach {
+    width: 305px;
+    height: 121px;
+    gap: 8px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 3px 18px 0px #00000026;
+    text-align: center;
+}
+
+.reach {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .events-container {
+        width: 90%;
+        padding: 0 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .events-container img {
+        width: 400px;
+        height: 400px;
+        margin: 0;
+        position: relative;
+        top: -40px;
+        left: -14px;
+    }
+
+    .events-workshop {
+        position: relative;
+        /* left: 140px; */
+        top: -55px;
+    }
+
+    .events-workshop h4 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 51px;
+        letter-spacing: -0.011em;
+        margin-left: 60px;
+    }
+
+    .ramadhan-workshop p:nth-child(1) {
+        font-family: Montserrat;
+        /* font-size: 20px; */
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: -0.011em;
+        text-align: left;
+    }
+
+    .ramadhan-workshop p:nth-child(2) {
+        font-family: Montserrat;
+        /* font-size: 12px; */
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: -0.011em;
+        text-align: left;
+    }
+
+    .ramadhan-workshop p:nth-child(3) {
+        font-family: Montserrat;
+        /* font-size: 12px; */
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: -0.011em;
+        text-align: left;
+    }
+
+    .ramadhan-workshop p:nth-child(4) {
+        font-family: Montserrat;
+        /* font-size: 12px; */
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: -0.011em;
+        text-align: left;
+    }
+
+    .ramadhan-workshop p:nth-child(5) {
+        font-family: Montserrat;
+        /* font-size: 18px; */
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.011em;
+        text-align: left;
+    }
+
+    .ramadhan-workshop h2 {
+        line-height: 0px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .events-text p {
+        position: relative;
+        top: -72px;
+        left: 54px;
+        font-size: 12px;
+    }
+
+    h4 {
+        /* font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: -0.011em;
+        margin-left: 125px; */
+        display: none;
+    }
+
+    .date {
+        position: relative;
+        top: -194px;
+        left: 64px;
+    }
+
+    .ramadhan-workshop {
+        width: 300px;
+        height: 300px;
+        margin: 0;
+        position: relative;
+        top: -176px;
+        left: 206px;
+    }
+
+    h4>span {
+        /* font-family: Montserrat;
+        font-size: 20px; */
+        display: none;
+    }
+
+    .events-workshop,
+    .card-reach {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .card-reach h1 {
+        font-size: 23px;
+    }
+
+    .workshop {
+        border: 0px;
+    }
+
+    .date {
+        position: relative;
+        top: -195px;
+        left: 149px;
+    }
+
+    .reach {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        position: relative;
+        top: 60px;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px) {
+    .events-container {
+        width: 1000px;
+        height: 648px;
+        opacity: 0px;
+        background: #FFFFFF;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .events-container img {
+        width: 400px;
+        height: 490px;
+        border-radius: 4px 0px 0px 0px;
+        opacity: 0px;
+        position: relative;
+        left: -62px;
+    }
+    .all-events{
+        /* border: 2px solid; */
+        position: relative;
+        left: -30px;
+    }
+    h3 {
+        font-size: 16px;
+        position: relative;
+        left: -60px;
+    }
+    .card-reach{
+        width: 230px;
+        height: 121px;
+    }
+}

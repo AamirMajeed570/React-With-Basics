@@ -1,0 +1,234 @@
+* {
+    background: #27262F;
+}
+
+.four-cards {
+    margin: 2%;
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-color: #27262F #27262F;
+}
+
+.first-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    width: 98%;
+    padding: 1.5rem;
+    /* background: #27262F; */
+    /* border: 2px solid; */
+}
+
+.myCard {
+    border-radius: 10px ;
+    border: 2px solid rgb(82, 79, 72);
+    /* padding: 6px; */
+    margin-top: 1rem;
+    background: #27262F;
+    /* background: #3B3A41; */
+}
+
+.name-image {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5rem;
+}
+
+.blogger {
+    display: flex;
+    background: #27262F;
+}
+
+.name-image :nth-child(1) {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.name-image :nth-child(2) {
+    font-size: 10px;
+    background: #27262F;
+    margin-top: -0.4rem;
+}
+
+.blogger-qa {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.answer p {
+    width: 7vw;
+    height: 2vh;
+    /* padding: 0.5rem; */
+    background: #ffcc82;
+    margin: 5% 0%;
+    border-radius: 12px;
+    color: black;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+    /* display: inline-block; */
+    
+
+}
+
+
+.challenge {
+    width: 90%;
+    margin: auto;
+    direction: ltr;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.updown {
+    width: 44%;
+    /* border: 2px solid; */
+    /* border-radius: 8px; */
+
+
+
+}
+
+.updown button {
+    background: none;
+    color: wheat;
+    border-left: 1px;
+    padding: 0.2rem;
+    /* margin-left: 0.5vw; */
+    /* border-radius: 5px; */
+    border: 2px solid #27262f;
+    height: 32px;
+    /* font-size: ; */
+}
+
+.hands button {
+    /* background: transparent; */
+    color: white;
+    padding: 0.2rem;
+    border: 2px solid #27262f;
+    margin-left: 0.8vw;
+    /* border-radius: 8px; */
+}
+
+.hands button {
+    width: 106px;
+    height: 32px;
+    font-size: 13px;
+    padding: 4px 0px 0px 0px;
+    gap: 4px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0px;
+    /* Rotation: -180 deg; */
+
+}
+
+.hands button:hover {
+    background: #FFF;
+    color: #000;
+}
+
+.reply {
+    display: flex;
+    height: 32px;
+    padding: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    flex: 1 0 0;
+}
+
+.reply button {
+    border-radius: 4px;
+    border: 1px solid #27262F;
+    margin-left: 0.3rem;
+    background: #FFF;
+    width: 100%;
+    height: 130%;
+    width: 79px;
+    height: 32px;
+    padding: 4px 0px 0px 0px;
+    gap: 1px;
+    border-radius: 4px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    /* angle: -180 deg; */
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    /* font-size: var(--Spacing3); */
+
+
+}
+
+.reply button:hover {
+    background: #161414;
+    color: white;
+}
+
+.footer-btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.1vw;
+    /* height: 60vh; */
+}
+
+.textarea {
+    position: absolute;
+    bottom: -18%;
+    /* width: 55%; */
+    border: #27262F;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea textarea {
+    color: wheat;
+    width: 116%;
+    border-radius: 6px;
+}
+
+.emoji-icon {
+    position: absolute;
+    bottom: 0px;
+    /* Adjust this value to position the emoji icon as desired */
+    left: 0;
+    /* Adjust this value to position the emoji icon as desired */
+
+}
+
+.updown img {
+    width: 15px;
+    height: 15px;
+}
+
+.blogger-qa .dots {
+    margin-bottom: 1rem;
+}
+.answered {
+    background-color: #85A8EE; /* Change this to your desired color */
+  }
+  
+  .unanswered {
+    background-color: #FFB6B6; /* Change this to your desired color */
+  }
+  

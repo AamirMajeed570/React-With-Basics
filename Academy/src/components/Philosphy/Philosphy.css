@@ -1,0 +1,186 @@
+/* New Code Begins Here */
+.philosphy-container {
+    margin-top: 20px;
+    width: 98.4vw;
+    height: 1200px;
+    /* border: 2px solid; */
+    background: #F3F2ED;
+    /* padding-left: 20px; */
+}
+
+.our-philosophy {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    padding: 12px;
+}
+
+#phi-span {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: #D39C41;
+}
+
+#phi-para {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: #D39C41;
+    padding: 12px;
+}
+
+.row {
+    /* border: 2px solid; */
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.col {
+    width: 500px;
+    margin: 0px;
+
+}
+
+.img-icon {
+    width: 113px;
+    height: 115px;
+    border: 1px solid #f05e5e;
+    border-radius: 50%;
+    /* Make the container circular */
+    overflow: hidden;
+    /* Ensure the image stays within the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    top: 20px;
+}
+
+.img-icon img {
+    width: 59px;
+    height: 50px;
+    max-width: 100%;
+    /* Ensure the image stays within the container */
+    max-height: 100%;
+    /* Ensure the image stays within the container */
+}
+
+.philosophy-title {
+    width: 413px;
+    height: 278px;
+    background-color: #fff;
+    /* border: 2px solid; */
+    padding: 18px;
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.philosophy-title :first-child {
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 700;
+    /* line-height: 57.6px; */
+    letter-spacing: -0.011em;
+    text-align: left;
+    font-size: 36px;
+    line-height: 23.2px;
+    font-size: 28px;
+    /* padding-top: 50px; */
+}
+
+.philosophy-title :last-child {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.col:hover .img-icon {
+    background-color: rgba(226, 226, 70, 0.1);
+    transition: background-image 1s ease-in;
+}
+
+.col:hover .philosophy-title {
+    background-image: url('../../../public/Images/landing.avif');
+    background-size: cover;
+    box-shadow: none;
+}
+
+@media only screen and (max-width:700px) {
+    .philosphy-container {
+        width: 98.5vw;
+        height: 2890px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .img-icon img {
+        width: 45px;
+        height: 56px;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        /* top: -21px; */
+    }
+
+    .img-icon {
+        width: 104px;
+        height: 110px;
+        border: 1px solid #f05e5e;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        position: relative;
+        top: 27px;
+        left: 12%;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px) {
+    .philosphy-container {
+        width: 98.5vw;
+        height: 1600px;
+        padding-left: 0px;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+
+    .img-icon img {
+        width: 71px;
+        height: 62px;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        /* top: -19px; */
+    }
+}

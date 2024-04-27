@@ -1,0 +1,282 @@
+.container {
+  width: 98.4vw;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  /* border: 2px solid; */
+}
+
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  /* Align navbar items */
+}
+
+.container ul li {
+  display: inline-block;
+}
+
+.container ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Montserrat;
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.5rem;
+  /* Adjust font size as needed */
+  letter-spacing: -0.011em;
+  /* Same letter spacing for all links */
+}
+
+.searchbox {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 18.8vw;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: larger;
+  /* Adjust icon color as needed */
+  cursor: pointer;
+}
+
+.searchbox input {
+  width: 17vw;
+  /* Set width to match */
+  height: 4vh;
+  padding: 5px;
+  /* Adjust padding as needed */
+  border: 1px solid #194D37;
+  /* Adjust border properties as needed */
+  border-radius: 4px;
+}
+
+.searchbox input::placeholder {
+  position: relative;
+  left: 20px;
+  font-size: larger;
+}
+
+.searchbox input {
+  /* width: 240px;
+    height: 40px; */
+  /* Adjust height as needed */
+  padding: 8px 40px 8px 12px;
+  /* Adjust padding as needed */
+  border: 1px solid #194D37;
+  /* Adjust border properties as needed */
+  border-radius: 4px;
+  border: 1.5px solid #114a37;
+  color: #194d37;
+  font-weight: 400;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.logo,
+.courses,
+.contact,
+.events,
+.login,
+.signup {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.011em;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.events,
+.login,
+.contact {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.courses {
+  border: 1.5px solid #114a37;
+}
+
+.signup {
+  border: 1.5px solid #114a37;
+  width: 5vw;
+  height: 4vh;
+  font-weight: 600;
+}
+
+.hoverBtn {
+  position: relative;
+  background-color: transparent;
+  border: 2px solid #075e54;
+  border-radius: 0.25rem;
+  padding: 0.5rem 2.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  color: #4caf50;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.hoverBtn::before {
+  content: "";
+  background-color: #f0ae45;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 800ms ease-in-out;
+  display: inline-block;
+}
+
+.hoverBtn:hover::before {
+  width: 100%;
+  color: #fff;
+}
+
+.social-links {
+  width: 240px;
+  height: 240px;
+}
+
+.menu-icon{
+  display: none;
+}
+
+/* Responsive Design */
+/* Extra small devices (phones, 600px and down) */
+/* .menu-icon {
+  display: hidden;
+  cursor: pointer;
+  float: right;
+  font-size: 30px;
+  padding: 10px;
+
+} */
+@media only screen and (max-width: 700px) {
+  /* .menu-icon{
+    display: block;
+  }
+  .menu-items {
+    display: none;
+  } */
+   .container ul li a { 
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 14px;
+    letter-spacing: -0.011em;
+    padding: 0px;
+  }
+
+  .logo {
+    font-size: 13px;
+    padding-top: 16px;
+    font-weight: 200;
+  }
+
+  .courses {
+    width: 84px;
+    height: 40px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 24%;
+    right: 17.8vw;
+    transform: translateY(-50%);
+    color: #555;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+  .events,
+  .login,
+  .contact {
+    font-size: 11px;
+    padding: 16px;
+    font-weight: 100;
+  }
+
+  .searchbox input {
+    width: 80px;
+    height: 22px;
+  }
+  .signup{
+    width: 47px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 12px;
+    margin-top: 6px;
+  }
+
+  .hoverBtn {
+    padding: 0.4rem 1.5rem;
+  }
+
+  .social-links {
+    width: 80px;
+    height: 80px;
+  }
+} 
+@media only screen and (min-width:900px) and (max-width:1200px) {
+  .container ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: -0.011em;
+    padding: 0px;
+  }
+  .logo {
+    font-size: 19px;
+    padding-top: 17px;
+    font-weight: 200;
+  }
+  .courses{
+    width: 150px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  .search-icon{
+    position: absolute;
+    top: 45%;
+    right: 85%;
+    font-size: 14px;
+  }
+  .events,
+  .login,
+  .contact {
+    font-size: 16px;
+    padding: 16px;
+    font-weight: 400;
+  }
+  .signup{
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 12px;
+  }
+}

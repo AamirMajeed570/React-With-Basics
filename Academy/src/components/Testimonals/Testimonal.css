@@ -1,0 +1,338 @@
+.testimonals {
+    height: 100vh;
+    width: 97.1vw;
+    /* border: 2px solid; */
+}
+
+.left-Image {
+    background-image: url(/public/Images/Lamps.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 20px;
+    left: -60px;
+    width: 250px;
+    height: 250px;
+}
+
+.middle-Image {
+    background-image: url(/public/Images/Pen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: -489px;
+    left: 604px;
+    width: 250px;
+    height: 250px;
+}
+
+.middle-right-image {
+    background-image: url(/public/Images/Quran.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100px;
+    height: 87.09px;
+    top: -799px;
+    left: 61%;
+    opacity: 0px;
+}
+
+.vector-image {
+    background-image: url('../../../public/Images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 54%;
+    top: -800px;
+    width: 357px;
+    height: 526px;
+}
+
+.man {
+    background-image: url(/public/Images/Man.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: relative;
+    width: 408px;
+    height: 703px;
+    top: -1467px;
+    left: 73%;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.child-Image {
+    background: url(/public/Images/Child.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 629px;
+    height: 119px;
+    top: -1825px;
+    left: -250px;
+
+}
+
+.right-Image {
+    background-image: url(/public/Images/Lamp2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: relative;
+    width: 231.31px;
+    height: 255.51px;
+    top: -2142px;
+    left: 87%;
+
+}
+
+.knowledge {
+    width: 649px;
+    height: 307px;
+    gap: 16px;
+    opacity: 0px;
+    position: relative;
+    top: -150px;
+    left: 200px;
+    /* //styleName: main heading; */
+}
+
+.knowledge #gaining {
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    text-align: left;
+}
+
+.knowledge #gaining #active {
+    color: #D39C41;
+}
+
+.knowledge #programs {
+    display: inline-block;
+    width: 600px;
+    color: #D69D45;
+    position: relative;
+    top: -70px;
+}
+
+.knowledge button {
+    width: 177px;
+    height: 50px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    color: white;
+    background: #114A37;
+    /* Green background color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    position: relative;
+    top: -60px;
+}
+
+/* .knowledge button:hover{
+    transition: margin-right 2s;
+} */
+
+.courseBtn {
+    position: relative;
+    background-color: #075e54;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.courseBtn::before {
+    content: "";
+    background-color: #f0ae45;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 800ms ease-in-out;
+    display: inline-block;
+}
+
+.courseBtn:hover::before {
+    width: 100%;
+    color: #fff;
+}
+
+/* Responsive Design for Tab */
+
+/* Responsive Design for Tablets */
+@media only screen and (max-width: 700px) {
+    .testimonals {
+        width: 700px;
+        height: 400px;
+    }
+
+    .left-Image {
+        width: 116px;
+        height: 162px;
+        top: 20px;
+        left: 0;
+    }
+
+    .middle-Image {
+        width: 165px;
+        height: 192px;
+        top: -461px;
+        left: 380px;
+    }
+
+    .middle-right-image {
+        top: -662px;
+        left: 240px;
+    }
+    .vector-image,
+    .man {
+        display: none;
+    }
+
+    .child-Image {
+        position: absolute;
+        top: 352px;
+    }
+
+    .right-Image {
+        width: 100px;
+        /* height: 100px; */
+        position: relative;
+        top: -796px;
+        left: 83%;
+    }
+
+    .knowledge #gaining {
+        font-size: 35px;
+        line-height: 43px;
+        position: relative;
+        top: 80px;
+    }
+
+    .knowledge #programs {
+        width: 400px;
+        top: 32px;
+    }
+
+    .knowledge button {
+        font-size: 14px;
+        line-height: 20px;
+        top: 88px;
+        /* left: -85px; */
+        right: 348px;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px) {
+    .testimonals{
+        height: 800px;
+    }
+    .right-Image {
+        background-image: url(/public/Images/Lamp2.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        position: relative;
+        width: 231.31px;
+        height: 255.51px;
+        top: -2154px;
+        left: 771px;
+    }
+
+    .middle-Image {
+        background-image: url(/public/Images/Pen.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        top: -498px;
+        left: 296px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .knowledge #gaining {
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 76.8px;
+        text-align: left;
+        position: relative;
+        right: 29%;
+    }
+
+    .knowledge #programs {
+        display: inline-block;
+        width: 473px;
+        color: #D69D45;
+        position: relative;
+        top: -66px;
+        right: 28%;
+    }
+
+    .knowledge button {
+        width: 177px;
+        height: 50px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.011em;
+        text-align: center;
+        color: white;
+        background: #114A37;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        top: -60px;
+        right: 27%;
+    }
+    .middle-right-image {
+        background-image: url(/public/Images/Quran.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        width: 100px;
+        height: 87.09px;
+        /* right: -59%; */
+        top: -808px;
+        left: 58%;
+        opacity: 0px;
+    }
+    .vector-image {
+        background-image: url(/public/Images/Vector.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        left: 46%;
+        top: -800px;
+        width: 357px;
+        height: 526px;
+    }
+    .man {
+        background-image: url(/public/Images/Man.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        position: relative;
+        width: 408px;
+        height: 718px;
+        top: -1363px;
+        left: 57%;
+    }
+}

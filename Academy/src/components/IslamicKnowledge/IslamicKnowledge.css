@@ -1,0 +1,338 @@
+.islamic-knowledge {
+    width: 98.4vw;
+    height: 790px;
+    left: 668px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    /* border: 2px solid red; */
+    background: #F3F2ED;
+    background-image: url(/public/Images/Section.png);
+}
+
+.masjid {
+    background-image: url(/public/Images/Namaz.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -120px;
+    left: 340px;
+    width: 412px;
+    height: 417px;
+    gap: 0px;
+    border-radius: 200px 200px 8px 8px;
+    opacity: 0px;
+}
+
+.bismillah {
+    width: 525px;
+    height: 215px;
+    gap: 38px;
+    opacity: 0px;
+    background-image: url(/public/Images/bismillah.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -400px;
+    left: 880px;
+}
+
+.bismillah #para-bismillah {
+    /* //styleName: para/regular(16px); */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    position: relative;
+    top: 150px;
+    left: 260px;
+}
+
+.guides {
+    width: 646px;
+    height: 236px;
+    gap: 36px;
+}
+
+.guides #para-guides {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    position: relative;
+    top: -280px;
+    left: 150px;
+}
+
+#para-guides>span {
+    color: #D39C41;
+}
+
+.guides #ethical {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: #D39C41;
+    position: relative;
+    top: -300px;
+    left: 150px;
+}
+
+
+.guides button {
+    width: 177px;
+    height: 48px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    text-align: center;
+    color: white;
+    background: #114A37;
+    /* Green background color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    cursor: pointer;
+    position: relative;
+    top: -290px;
+    left: 150px;
+}
+
+.guides button:hover {
+    transition: margin-right 2s;
+}
+
+.tahajud {
+    background-image: url('/public/Images/Namaz(2).png');
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 406px;
+    height: 382px;
+    gap: 0px;
+    border-radius: 200px 200px 8px 8px;
+    opacity: 0px;
+    top: -550px;
+    left: 1000px;
+}
+
+.moreBtn {
+    position: relative;
+    background-color: #075e54;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.moreBtn::before {
+    content: "";
+    background-color: #f0ae45;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 800ms ease-in-out;
+    display: inline-block;
+}
+
+.moreBtn:hover::before {
+    width: 100%;
+    color: #fff;
+}
+
+/* Media Querey for Tablet Mode */
+/* Media Query for Tablet Mode */
+@media only screen and (max-width: 700px) {
+    .islamic-knowledge {
+        width: 700px;
+        height: 1300px;
+    }
+
+    .masjid {
+        width: 300px;
+        height: 300px;
+        top: -23px;
+        left: 10%;
+    }
+
+    .guides #para-guides {
+        position: relative;
+        top: -264px;
+        left: 107%;
+        transform: translateX(-50%);
+    }
+
+    .guides button {
+        position: relative;
+        top: -141px;
+        left: 96px;
+    }
+
+    .guides #ethical {
+        width: 400px;
+        position: relative;
+        top: -123%;
+        left: 89%;
+        transform: translateX(-50%);
+    }
+
+    .guides button {
+        width: 159px;
+        height: 60px;
+        border: 2px solid;
+        position: relative;
+        top: -282px;
+        left: 71%;
+    }
+
+    .bismillah {
+        width: 302px;
+        height: 200px;
+        position: relative;
+        transform: translateX(-50%);
+        top: 171px;
+        left: 64%;
+        transform: translateX(-50%);
+    }
+
+    .bismillah #para-bismillah {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.011em;
+        text-align: left;
+        position: relative;
+        /* top: 150px; */
+        left: -81%;
+    }
+
+
+    .guides {
+
+        transform: translateX(-50%);
+    }
+
+
+
+
+
+    .tahajud {
+        /* width: 50%; */
+        /* height: 60%; */
+        transform: translateX(-50%);
+        border: none;
+        background-image: url('/public/Images/Namaz(2).png');
+        /* border-radius: 20px; */
+        position: relative;
+        top: 30px;
+        left: 47%;
+    }
+
+
+    .moreBtn {
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px)
+{
+    .masjid {
+        background-image: url(/public/Images/Namaz.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -107px;
+        left: 95px;
+        width: 360px;
+        height: 356px;
+        gap: 0px;
+        border-radius: 200px 200px 8px 8px;
+        opacity: 0px;
+    }
+    .guides #para-guides {
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57.6px;
+        letter-spacing: -0.011em;
+        text-align: left;
+        width: 518px;
+        position: relative;
+        top: -369px;
+        left: 95px;
+    }
+    .guides #ethical {
+        font-family: Montserrat;
+        color: #D39C41;
+        position: relative;
+        top: -400px;
+        left: 102px;
+    }
+    .guides button {
+        height: 48px;
+        gap: 0px;
+        border-radius: 4px 0px 0px 0px;
+        opacity: 0px;
+        background: #114A37;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        top: -395px;
+        left: 96px;
+    }
+    .bismillah {
+        width: 295px;
+        height: 216px;
+        gap: 38px;
+        opacity: 0px;
+        background-image: url(/public/Images/bismillah.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -291px;
+        left: 618px;
+    }
+    .bismillah #para-bismillah {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.011em;
+        text-align: left;
+        position: relative;
+        top: 153px;
+        left: 35px;
+    }
+    .tahajud {
+        background-image: url('/public/Images/Namaz(2).png');
+        background-position: right;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 388px;
+        height: 323px;
+        gap: 0px;
+        border-radius: 200px 200px 8px 8px;
+        opacity: 0px;
+        top: -454px;
+        left: 55%;
+    }
+}

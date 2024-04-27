@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #212125;
+}
+
+.container-container {
+    width: 100%;
+    height: 20%;
+}
+
+.container-container ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    margin-left: 20vw;
+}
+
+.container-container #icon {
+    margin-top: 19px;
+}
+
+ul :last-child {
+    margin: 8px 16px 0px 0px;
+    margin-top: 8px;
+}
+
+/* ! Middle Section Starts Here */
+.middle-section {
+    display: flex;
+    height: 100%;
+}
+
+.video-title {
+    width: 80vw;
+    height: 80vh;
+    background: #161618;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-title img {
+    border-radius: 80px;
+    background: #7E47EB;
+    position: absolute;
+}
+
+.video-title :nth-child(2) {
+    position: relative;
+    right: 44%;
+    top: 45%;
+    background: none;
+}
+
+/* ! Right Side Bar */
+
+
+.middle-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* Add flex display */
+    justify-content: flex-start;
+    /* Align items to the start (left) */
+    transition: margin-right 0.5s;
+    cursor: auto;
+}
+
+.right-sidebar {
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    /* background-color: #27262F; */
+    background: #3B3A41;
+
+
+    /* Adjust background color as needed */
+    width: 100px;
+    /* Set initial width */
+    height: 110%;
+    /* Fill the entire height */
+    cursor: pointer;
+    transition: width 0.5s;
+    /* Add transition for width */
+    display: flex;
+    cursor: auto;
+}
+
+.card {
+    width: 88%;
+    /* background-color: red; */
+    display: flex;
+
+}
+
+.sidebar-expanded {
+    width: 600px;
+    background: #27262F;
+    /* Adjust expanded width */
+    border: 1px solid gray;
+    height: 90vh;
+    border-bottom: none;
+}
+
+.sidebar-icon {
+    width: 15%;
+    height: 80vh;
+    width: 15%;
+    height: 92vh;
+    background: #27262F;
+    cursor: pointer;
+    padding: 0.3rem;
+    border-right: 1px solid #524f48;
+}
+.sidebar-icon img{
+    height: 5%;
+    padding-left: 1.6rem;
+}

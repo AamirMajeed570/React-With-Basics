@@ -1,0 +1,191 @@
+.instructor-Container {
+    width: 89vw;
+    height: 450px;
+    top: 4655px;
+    padding: 60px 80px 60px 80px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 70px;
+    background: #F3F2ED;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instructor-Container h1 {
+    width: 233px;
+    height: 51px;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: -0.011em;
+    text-align: left;
+
+}
+
+.teacher1 img,
+.teacher2 img {
+    display: inline;
+    padding: 4px;
+}
+
+.teacher1,
+.teacher2 {
+    width: 814px;
+    height: 294px;
+    padding: 25px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    background: #FDFDFD;
+    box-shadow: 0px 3px 15px 0px #00000026;
+    margin-top: 60px;
+}
+
+.stars {
+    width: 267px;
+    height: 143px;
+    gap: 8px;
+    opacity: 0px;
+    position: relative;
+    top: -100px;
+    left: 440px;
+}
+
+#reviews {
+    position: relative;
+    left: 150px;
+    color: #DDB245;
+
+}
+
+.stars p:nth-child(2) {
+    width: 267.17px;
+    height: 21px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.011em;
+    text-align: right;
+}
+
+.stars p:nth-child(3) {
+    width: 267.17px;
+    height: 21px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.011em;
+    text-align: right;
+}
+
+.student1 {
+    display: flex;
+}
+
+.student1 p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 700px) {
+    .instructor-Container {
+        width: 90%;
+        padding: 40px 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .stars p:nth-child(2) {
+        font-size: 20px;
+        position: relative;
+        top: -100px;
+        left: 172px;
+    }
+    .stars p:nth-child(3){
+        position: relative;
+        top: -160px;
+        left: 160px;
+    }
+    .instructor-Container h1 {
+        width: 100%;
+        height: 30vh;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .teacher1,
+    .teacher2 {
+        border: 2px solid;
+        width: 900px;
+        height: 25vh;
+        margin-top: 20px;
+    }
+
+    .stars {
+        top: 0;
+        left: 0;
+        margin: 20px auto 0;
+        text-align: center;
+    }
+
+    #reviews {
+        position: relative;
+        left: 253px;
+        top: -41px;
+    }
+    .regular-courses {
+        position: relative;
+        top: -40%;
+        left: 22%;
+    }
+    .teacher1 img, .teacher2 img {
+        display: inline;
+        padding: 4px;
+        height: 134px;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:1200px){
+    .instructor-Container{
+        width: 930px;
+        height: 300px;
+        padding: 0px;
+        margin: auto;
+    }
+    .teacher1,
+    .teacher2{
+        width: 430px;
+        margin: 3px;
+        height: 250px;
+    }
+    .stars {
+        gap: 8px;
+        opacity: 0px;
+        position: relative;
+        top: -133px;
+        left: 146px;
+    }
+    #reviews {
+        position: relative;
+        left: 150px;
+        top: 74px;
+        color: #DDB245;
+    }
+    .student1 p{
+        font-size: 13px;
+    }
+    .stars p:nth-child(2) {
+        width: 267.17px;
+        height: 21px;
+        font-family: Montserrat;
+        font-size: 26px;
+        text-align: right;
+    }
+}
