@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Card from "./cards/Card";
+import { Counter } from "./cards/Counter";
 
 function App() {
   const mentors = [
@@ -37,14 +38,15 @@ function App() {
 
   return (
     <>
-      <h1 className="bg-slate-600 h-[40px] text-center py-1 text-2xl w-[98%]">
+      {/* <h1 className="bg-slate-600 h-[40px] text-center py-1 text-2xl w-[98%]">
         List Of Mentors
       </h1>
       <div className="grid grid-cols-3 gap-3 justify-center align-middle m-2">
         {mentors.map((mentor,index)=>(
         <Card key={index} mentor={mentor} />
         ))}
-      </div>
+      </div> */}
+      <Counter />
     </>
   );
 }
