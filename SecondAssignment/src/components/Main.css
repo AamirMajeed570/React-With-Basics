@@ -116,7 +116,18 @@ ul :last-child {
     padding: 0.3rem;
     border-right: 1px solid #524f48;
 }
-.sidebar-icon img{
-    height: 5%;
-    padding-left: 1.6rem;
+
+.sidebar-icon img {
+    /* height: 5%; */
+    padding: 0.6rem;
+    margin-left: 1rem;
+}
+
+.emoji-icon {
+    width: 110%;
+    margin: auto;
+    border-left: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
 }

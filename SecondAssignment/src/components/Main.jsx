@@ -5,6 +5,9 @@ import Vector from "../assets/Vector.svg";
 import Dots from "../assets/Dots.svg";
 import uparrow from "../assets/uparrow.svg";
 import downarrow from "../assets/downarrow.svg";
+import emoji from "../assets/emoji.svg";
+import send from "../assets/send.svg";
+import uphands from "../assets/uphand.svg";
 import "./Main.css";
 import "./Sidebar.css";
 import "./Cards.css";
@@ -13,48 +16,47 @@ const Main = () => {
     {
       id: 1,
       answered: true,
-      time:12,
+      time: 12,
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
     {
       id: 2,
       answered: false,
-      time:7,
+      time: 7,
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
     {
       id: 3,
       answered: true,
-      time:5,
+      time: 5,
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
     {
       id: 4,
       answered: false,
-      time:10,
+      time: 10,
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
     {
       id: 5,
       answered: false,
-      time:6,
+      time: 6,
       content:
         "What do you identify as the biggest challenge facing designers in the next 20 years, and how might we begin to address it?",
     },
   ];
-  const [selectedFilter,setSelectedFilter] = useState("all")
-  const [sortFilter,setSortedFilter] = useState("Oldest")
-  const [counter,setCounter] = useState(70);
-  
+  const [selectedFilter, setSelectedFilter] = useState("all");
+  const [sortFilter, setSortedFilter] = useState("Oldest");
+  const [counter, setCounter] = useState(70);
 
-  const handleClick = ()=>{
-    setCounter(counter+1);
-    console.log(counter)
-  }
+  const handleClick = () => {
+    setCounter(counter + 1);
+    console.log(counter);
+  };
   const sortCards = (cards) => {
     switch (sortFilter) {
       case "Latest":
@@ -65,12 +67,12 @@ const Main = () => {
         return cards;
     }
   };
-  
-  const filteredCards = cardsData.filter((card)=>{
-    if(selectedFilter==="all") return true;
-    if(selectedFilter==="answered") return card.answered
-    if(selectedFilter==="unanswered") return !card.answered
-  })
+
+  const filteredCards = cardsData.filter((card) => {
+    if (selectedFilter === "all") return true;
+    if (selectedFilter === "answered") return card.answered;
+    if (selectedFilter === "unanswered") return !card.answered;
+  });
   const sortedFilteredCards = sortCards(filteredCards);
   const now = new Date();
   const timeString = now.toLocaleTimeString();
@@ -113,6 +115,8 @@ const Main = () => {
         >
           <div className="sidebar-icon">
             <img src={Vector} alt="" style={{ background: "none" }} />
+            <p id="q">Q</p>
+            <p id="a">A</p>
           </div>
           {sidebarExpanded && (
             <div
@@ -129,7 +133,13 @@ const Main = () => {
               <div className="dropdown">
                 <div className="view-dropdown">
                   <label htmlFor="view-select">View</label>
-                  <select name="view" id="view-select" value={selectedFilter} onChange={(e)=>setSelectedFilter(e.target.value)} style={{background: "#3B3A41"}}>
+                  <select
+                    name="view"
+                    id="view-select"
+                    value={selectedFilter}
+                    onChange={(e) => setSelectedFilter(e.target.value)}
+                    style={{ background: "#3B3A41" }}
+                  >
                     <option value="all">All</option>
                     <option value="answered">Answered</option>
                     <option value="my-questions">My Questions</option>
@@ -138,10 +148,18 @@ const Main = () => {
                 </div>
                 <div className="sortBy-dropdown">
                   <label htmlFor="sortby">Sort by</label>
-                  <select name="sort" id="sortby" value={sortFilter} onChange={(e)=>{
-                    setSortedFilter(e.target.value)
-                  }} style={{background: "#3B3A41"}}>
-                    <option id="opt" value="Upvotes">Upvotes</option>
+                  <select
+                    name="sort"
+                    id="sortby"
+                    value={sortFilter}
+                    onChange={(e) => {
+                      setSortedFilter(e.target.value);
+                    }}
+                    style={{ background: "#3B3A41" }}
+                  >
+                    <option id="opt" value="Upvotes">
+                      Upvotes
+                    </option>
                     <option value="Me Too">Me Too</option>
                     <option value="Oldest">Oldest</option>
                     <option value="Latest">Latest</option>
@@ -164,7 +182,13 @@ const Main = () => {
                       </div>
                       <div className="blogger-qa">
                         <div className={`answer`}>
-                          <p className={`${data.answered?"answered":"unanswered"}`}>{data.answered ? "ANSWERED" : "UNANSWERED"}</p>
+                          <p
+                            className={`${
+                              data.answered ? "answered" : "unanswered"
+                            }`}
+                          >
+                            {data.answered ? "ANSWERED" : "UNANSWERED"}
+                          </p>
                         </div>
                         <img className="dots" src={Dots} alt="Image" />
                       </div>
@@ -174,7 +198,14 @@ const Main = () => {
                     </div>
                     <div className="footer-btns">
                       <div className="updown">
-                        <button onClick={handleClick} style={{border:"2px solid white",borderRight:"0px",borderRadius:"4px"}}>
+                        <button
+                          onClick={handleClick}
+                          style={{
+                            border: "2px solid white",
+                            borderRight: "0px",
+                            borderRadius: "4px",
+                          }}
+                        >
                           {" "}
                           <img
                             src={uparrow}
@@ -183,7 +214,12 @@ const Main = () => {
                           />{" "}
                           <span>{counter}</span>
                         </button>
-                        <button style={{border:"2px solid white",borderRadius:"4px"}}>
+                        <button
+                          style={{
+                            border: "2px solid white",
+                            borderRadius: "4px",
+                          }}
+                        >
                           <img
                             src={downarrow}
                             style={{ color: "white" }}
@@ -193,7 +229,10 @@ const Main = () => {
                         </button>
                       </div>
                       <div className="hands">
-                        <button style={{border:"2px solid white"}}>Me Too (200)</button>
+                        <button style={{ border: "2px solid white" }}>
+                          <img src={uphands} alt="" />
+                          Me Too (200)
+                        </button>
                       </div>
                       <div className="reply">
                         <button id="reply">Reply</button>
@@ -202,9 +241,16 @@ const Main = () => {
                   </div>
                 ))}
                 <div className="textarea">
-                  <textarea name="" id="" cols="40" rows="4" placeholder="Post a Question..."></textarea>
+                  <textarea
+                    name=""
+                    id=""
+                    cols="40"
+                    rows="4"
+                    placeholder="Post a Question..."
+                  ></textarea>
                   <div className="emoji-icon">
-                    {/* <h2 style={{ color: "white" }}>&#128512;</h2> */}
+                    <img src={emoji} alt="" srcset="" />
+                    <img src={send} alt="" />
                   </div>
                 </div>
               </div>

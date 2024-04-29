@@ -127,7 +127,10 @@
     margin-left: 0.8vw;
     /* border-radius: 8px; */
 }
-
+.hands button img{
+    background: none;
+    color: #000;
+}
 .hands button {
     width: 106px;
     height: 32px;
@@ -140,12 +143,20 @@
     /* Rotation: -180 deg; */
 
 }
-
-.hands button:hover {
-    background: #FFF;
-    color: #000;
+.hands button img{
+    padding-bottom:0.3rem;
 }
 
+.hands button:hover {
+    background: #FFFFFF;
+    color: #000;
+    
+}
+.hands button img:hover{
+    
+        fill: red;
+    
+}
 .reply {
     display: flex;
     height: 32px;
