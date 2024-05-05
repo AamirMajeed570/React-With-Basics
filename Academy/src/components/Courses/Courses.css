@@ -89,14 +89,13 @@
 .resize-effect:hover {
     background-image: url('../../../public/Images/landing.avif');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     box-shadow: none;
 }
 
 .resize-effect:hover img {
     transition: all 1s ease-in;
-    transform: scale(0.3);
-
+    transform: scale(0.6);
 }
 
 .resize-effect:hover p {

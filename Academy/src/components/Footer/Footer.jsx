@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer-wrapper">
       <div className="top-footer">
         <img src="../../../public/Images/prophet.png" alt="" />
         <p>

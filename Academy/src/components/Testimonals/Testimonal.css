@@ -1,5 +1,5 @@
 .testimonals {
-    height: 100vh;
+    height: 84vh;
     width: 97.1vw;
     /* border: 2px solid; */
 }
@@ -113,8 +113,6 @@
     display: inline-block;
     width: 600px;
     color: #D69D45;
-    position: relative;
-    top: -70px;
 }
 
 .knowledge button {
@@ -135,8 +133,8 @@
     /* Add border radius for rounded corners */
     cursor: pointer;
     /* Change cursor to pointer on hover */
-    position: relative;
-    top: -60px;
+    /* position: relative;
+    top: -60px; */
 }
 
 /* .knowledge button:hover{
@@ -252,7 +250,7 @@
         width: 231.31px;
         height: 255.51px;
         top: -2154px;
-        left: 771px;
+        left: 930px;
     }
 
     .middle-Image {
