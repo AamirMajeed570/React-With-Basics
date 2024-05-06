@@ -31,6 +31,11 @@ img {
     justify-content: center;
 }
 
+.Qalima:hover{
+    background:linear-gradient(rgb(124, 112, 114),rgb(142, 158, 167),rgba(53, 139, 96, 0.4),rgba(82, 211, 125, 0.6));
+    cursor: pointer;
+}
+
 .Qalima-text {
     width: 190px;
     height: 109px;
