@@ -21,7 +21,9 @@ export const createBookCtrl = async (req, res) => {
 
  export const getAllBooksCtrl = async (req, res) => {
     try {
-      const bookFound = await Book.find({})
+      console.log("Working Here")
+      const bookFound = await Book.find()
+      console.log("Working Here too")
       return res
         .status(200)
         .send({
