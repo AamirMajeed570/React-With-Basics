@@ -9,6 +9,11 @@ import { MdOutlineAddBox, MdOutlineDelete } from "react-icons/md";
 const Home = () => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(false);
+  // const [page,setPage] = useState(1);
+  // const selectedPage = (pageSelected)=>{
+  //   setPage(pageSelected);
+  // }
+  // books.length = 100;
   useEffect(() => {
     setLoading(true);
     axios
@@ -50,7 +55,7 @@ const Home = () => {
             </tr>
           </thead>
           <tbody>
-            {books.map((book, index) => (
+            {books.slice(0,4).map((book, index) => (
               <tr key={book._id} className="h-8">
                 <td className="border border-slate-700 rounded-md text-center">
                   {index + 1}
@@ -82,6 +87,21 @@ const Home = () => {
           </tbody>
         </table>
       )}
+    {/* {
+      books.length>0 && 
+      <div className="flex justify-center text-2xl cursor-pointer py-1">
+            <span>◀</span>
+            {
+              [...Array(books.length/10)].map((_,i)=>{
+                return <span className="mx-2 border p-1 cursor-pointer hover:backdrop-brightness-90" key={i} onClick={()=>selectedPage(i+1)}>
+                      {i+1}
+                </span>
+              })
+            }
+            <span>▶</span>
+        </div>
+      
+    } */}
     </div>
   );
 };
