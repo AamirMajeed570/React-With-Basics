@@ -4,6 +4,7 @@ import './App.css'
 import Hook from './components/Hook';
 import Counter from './components/Counter';
 import Plus from './components/Plus';
+import UseReducer from './components/UseReducer';
 
 function App() {
   let [counter,setCounter] = useState(0);
@@ -27,7 +28,8 @@ function App() {
       </div> */}
       {/* <Hook /> */}
       {/* <Counter /> */}
-      <Plus />
+      {/* <Plus /> */}
+      <UseReducer />
     </>
   )
 }
