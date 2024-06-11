@@ -1,0 +1,12 @@
+.cards {
+  border: 2px solid red;
+  padding: 12px 14px;
+  max-width: 100%;
+  margin: 10px 20px;
+  background-color: #7d6060;
+}
+
+.cards-data {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
