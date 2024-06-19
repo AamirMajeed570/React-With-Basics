@@ -5,6 +5,7 @@ import Counter from './components/Counter';
 import Plus from './components/Plus';
 import UseReducer from './components/UseReducer';
 import UseMemo from './Hooks/UseMemo';
+import UseReducerHook from './Hooks/UseReducerHook';
 
 function App() {
   // let [counter,setCounter] = useState(0);
@@ -47,7 +48,8 @@ function App() {
         <h2>Components get Rendered for {count.current} times</h2> */}
         {/* <input type="text" ref={inputEle}/>
         <button onClick={btnClicked}>Click</button> */}
-        <UseMemo />
+        {/* <UseMemo /> */}
+        <UseReducerHook />
     </>
   )
 }
