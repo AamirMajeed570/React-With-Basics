@@ -1,0 +1,12 @@
+.post-display{
+    width: 100%;
+    border: 2px solid red;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+}
+.post__details{
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+}
