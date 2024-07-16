@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import MyButton from './components/MyButton'
 import { List } from './components/List'
+import Todo from './components/Todo';
 
 function App() {
   const [count,setCount] = useState(0);
@@ -11,8 +12,9 @@ function App() {
   return (
     <>
       <h1>Hello creating Custom Button</h1>
-      <MyButton count={count} onClick={addCount}/>
-      <List />
+      {/* <MyButton count={count} onClick={addCount}/>
+      <List /> */}
+      <Todo />
     </>
   )
 }
