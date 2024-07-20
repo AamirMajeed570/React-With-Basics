@@ -5,6 +5,7 @@ import { List } from './components/List'
 import Todo from './components/Todo';
 import ReactHooks from './components/ReactHooks';
 import { UseRef } from './components/UseRef';
+import UseMemo from './components/UseMemo';
 
 function App() {
   const [count,setCount] = useState(0);
@@ -18,7 +19,8 @@ function App() {
       <List /> */}
       {/* <Todo /> */}
       {/* <ReactHooks /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+        <UseMemo />
     </>
   )
 }
