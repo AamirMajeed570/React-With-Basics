@@ -6,6 +6,9 @@ import Todo from './components/Todo';
 import ReactHooks from './components/ReactHooks';
 import { UseRef } from './components/UseRef';
 import UseMemo from './components/UseMemo';
+import { UseCallback } from './components/UseCallback';
+import Profile from './components/Profile';
+import Footer from './components/Footer';
 
 function App() {
   const [count,setCount] = useState(0);
@@ -20,7 +23,11 @@ function App() {
       {/* <Todo /> */}
       {/* <ReactHooks /> */}
       {/* <UseRef /> */}
-        <UseMemo />
+        {/* <UseMemo /> */}
+        {/* <UseCallback /> */}
+        <Profile />
+        <Footer />
+        
     </>
   )
 }
