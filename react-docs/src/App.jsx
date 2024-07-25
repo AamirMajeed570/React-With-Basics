@@ -9,6 +9,7 @@ import UseMemo from './components/UseMemo';
 import { UseCallback } from './components/UseCallback';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
+import UseReducer from './components/UseReducer';
 
 function App() {
   const [count,setCount] = useState(0);
@@ -25,9 +26,9 @@ function App() {
       {/* <UseRef /> */}
         {/* <UseMemo /> */}
         {/* <UseCallback /> */}
-        <Profile />
-        <Footer />
-        
+        {/* <Profile />
+        <Footer /> */}
+        <UseReducer />
     </>
   )
 }
