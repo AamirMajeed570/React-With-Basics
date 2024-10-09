@@ -1,29 +1,39 @@
-
-.App{
-  /* border: 2px solid red; */
-  display: flex;
-  background-color: #212121;
-  color: wheat;
-}
-
-.list{
-  width: 800px;
-  /* border: 2px solid black; */
-}
-.list ul{
-  display: flex;
-  list-style-type: none;
-  justify-content: end;
-}
-.list ul li{
-  font-size: 22px;
-  padding: 10px 12px;
-  cursor: pointer;
-}
-.App .avatar{
-  width: 800px;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  /* border: 2px solid blue; */
-}
+/* Ensure that the container of the cards uses flexbox */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: space-between; /* Space out the cards */
+    margin: 0 auto; /* Center the container */
+    max-width: 1200px; /* Optional: limit max width */
+  }
+  
+  /* Style for individual cards */
+  .cards {
+    flex: 0 1 calc(25% - 20px); /* Each card takes up 25% of the row minus some spacing */
+    margin: 10px; /* Space between cards */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth scaling effect */
+  }
+  
+  /* Optional: Scale on hover */
+  .cards:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image styling */
+  .image img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Title styling */
+  .title {
+    padding: 10px; /* Padding around title */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+  }
+  

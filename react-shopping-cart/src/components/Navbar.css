@@ -1,0 +1,29 @@
+
+.App{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: #212121;
+    color: wheat;
+  }
+  
+  .list{
+    width: 600px;
+    /* border: 2px solid black; */
+  }
+  .list ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+  }
+  .list ul li{
+    font-size: 22px;
+    padding: 10px 12px;
+    cursor: pointer;
+  }
+  .App .avatar{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* border: 2px solid blue; */
+  }
