@@ -36,4 +36,7 @@
     font-weight: bold; /* Bold text */
     text-align: center; /* Center text */
   }
-  
+  .favourite{
+    text-align: center;
+    cursor: pointer;
+  }
