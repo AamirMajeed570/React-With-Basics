@@ -6,7 +6,7 @@ function App() {
   const [charAllowed,setCharAllowed] = useState(false)
   const [password,setPassword] = useState("")
 
-  const passwordGenerator = useCallback(()=>{
+  const passwordGenerator = useCallback(()=>{ 
       let pass ="";
       let str ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnonpqrstuvwxyz";
       if(numberAllowed) str += "1234567890"
@@ -60,7 +60,7 @@ function App() {
                 onChange={()=>{
                   setCharAllowed((prev)=>!prev)
                 }} />
-                <label htmlFor='charInput' >Numbers</label>
+                <label htmlFor='charInput' >Characters</label>
             </div>
       </div>
     </>
