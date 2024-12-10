@@ -1,0 +1,54 @@
+.resume-container{
+    border: 2px solid red;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ce9090;
+    height: 100vh;
+}
+.resume-container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.resume-container .header img{
+    border-radius: 50%;
+}
+
+.resume-container .summary{
+    padding: 0 20px 0 20px;
+    line-height: 1.1;
+}
+
+.resume-container .education{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    padding: 0 20px 0 20px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.skills div{
+    width: 30%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.download-resume {
+   width: 40%;
+   margin: auto;
+   /* border: 2px solid blue; */
+}
+  

@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1616;
+    color: white;
+}
+.navbar div span{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    /* border: 2px solid red; */
+}
+.navbar div ul{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 12px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.container{
+    border: 2px solid black;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: #785353;
+    padding: 10px 12px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.container > div input{
+    /* border: 2px solid red;    */
+    width: 200px; 
+    height: 40px;
+    padding: 4px 5px;
+    margin: 30px 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.container > div textarea{
+    /* border: 2px solid red; */
+    width: 700px;
+    height: 100px;
+    padding: 4px 5px;
+    margin: 30px 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.container > div button{
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    /* background-color: #6abc44; */
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
