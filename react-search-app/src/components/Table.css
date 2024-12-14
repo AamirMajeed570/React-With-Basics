@@ -1,0 +1,22 @@
+.table-container{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    left: 20%;
+}
+.search-input{
+    width: 70%;
+    height: 30px;
+    margin: auto;
+    /* border: 2px solid red; */
+    /* position: absolute;
+    left: 15%; */
+}
+.table-container .search-button{
+    width: 10%;
+    height: 30px;
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 5px;
+}

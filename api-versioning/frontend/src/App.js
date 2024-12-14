@@ -3,6 +3,10 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import { useState } from 'react';
+import Button from '@mui/material/Button';
+import Snackbar from '@mui/material/Snackbar';
+// import IconButton from '@mui/material/IconButton';
+// import CloseIcon from '@mui/icons-material/Close';
 function App() {
   const versions = [
     { id: "1", name: "v1.1.0" },
@@ -11,7 +15,18 @@ function App() {
   ]
   const [version, setVersion] = useState("");
   const [responseData, setResponseData] = useState("");
+  const [open, setOpen] = useState(false);
   const [selectedVersion, setSelectedVersion] = useState("");
+  const handleClick = () =>{
+    setOpen(true);
+  }
+
+  const handleClose = (event,reason) =>{
+    if(reason === "clickaway"){
+      return;
+    }
+    setOpen(false);
+  }
   const handleVersion = async (versionname) => {
     console.log("11111111", versionname);
     setSelectedVersion(versionname);
@@ -21,6 +36,7 @@ function App() {
       console.log("Response----", response.data);
       setVersion(response.version || versionname);
       setResponseData(response.data);
+      handleClick();
     } catch (error) {
       console.log('Error', error)
     }
@@ -42,6 +58,15 @@ function App() {
         responseData.version ? `You are using Version ${responseData.version} with data: ${responseData.data}` : "Select a Version to view Detail"
 
       }
+      {/* <Button onClick={handleClick}>Open Snackbar</Button> */}
+      <Snackbar
+        open={open}
+        autoHideDuration={6000}
+        onClose={handleClose}
+        message={`You have selected ${selectedVersion}`}
+        // action={action}
+      />
+
     </>
   );
 }
