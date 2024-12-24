@@ -4,14 +4,6 @@ const PORT = 8000;
 const app = express();
 app.use(cors());
 
-app.get('/',(req,res)=>{
-    res.send('My First Route');
-})
-
-app.get('/api/v1/test',(req,res)=>{
-    console.log(req);
-    res.send('My Second Route');
-})
 
 app.post('/api/version/:versionname',(req,res)=>{
     const versionname = req.params.versionname;
