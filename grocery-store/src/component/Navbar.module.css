@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navLinks li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navLinks li a:hover {
+    color: #00bcd4;
+  }
+  
+  .menuToggle {
+    display: none;
+    flex-direction: column;
+    gap: 0.3rem;
+    cursor: pointer;
+  }
+  
+  .menuToggle span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .navLinks {
+      display: none;
+      flex-direction: column;
+      gap: 1rem;
+      position: absolute;
+      top: 60px;
+      right: 2rem;
+      background-color: #333;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+  
+    .menuToggle {
+      display: flex;
+    }
+  
+    .menuToggle.active + .navLinks {
+      display: flex;
+    }
+  }
+  
