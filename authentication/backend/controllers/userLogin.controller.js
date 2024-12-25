@@ -73,4 +73,24 @@ const loginUserCtrl = async (req,res)=>{
     }
 }
 
-export {registerUserCtrl,loginUserCtrl}
+const userDetailsCtrl = async(req,res) =>{
+    try {
+        const findUser = await User.find();
+        if(!findUser){
+            return res.status(200).json({
+                success: 'false',
+                message: "No Data Found",
+            })
+        }
+
+        return res.status(200).json({
+            success: true,
+            message: 'Data Found Succesfully',
+            data: findUser
+        })
+    } catch (error) {
+        
+    }
+} 
+
+export {registerUserCtrl,loginUserCtrl,userDetailsCtrl}

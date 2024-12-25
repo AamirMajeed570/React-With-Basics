@@ -1,0 +1,47 @@
+/* ProfileComponent.module.css */
+.profileContainer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 16px auto;
+  }
+  
+  .pictureContainer {
+    flex-shrink: 0;
+    margin-right: 16px;
+  }
+  
+  .profilePicture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    object-fit: cover;
+  }
+  
+  .detailsContainer {
+    flex-grow: 1;
+  }
+  
+  .name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .email, .phone {
+    font-size: 1em;
+    color: #666;
+    margin: 4px 0;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
