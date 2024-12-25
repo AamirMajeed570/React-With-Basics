@@ -7,6 +7,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import { BrowserRouter, Route, Routes, useNavigate } from 'react-router-dom';
 import Login from './components/Login';
 import Register from './components/Register';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/version/v1.1.0" element={<Login />} />
         <Route path="/version/v2.1.0" element={<Register />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
