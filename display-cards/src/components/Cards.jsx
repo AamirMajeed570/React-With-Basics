@@ -17,7 +17,6 @@ const Cards = ({ data }) => {
     const toggleColor = (id) => {
         console.log("Add", id)
         if (selectedCards.includes(id)) {
-            // If the Card is Selected Remove it 
             setSelectedCards(selectedCards.filter((cardId) => cardId !== id))
         } else {
             setSelectedCards([...selectedCards, id]);
