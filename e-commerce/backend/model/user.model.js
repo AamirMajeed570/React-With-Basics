@@ -31,10 +31,6 @@ const userSchema = new mongoose.Schema(
       type: addressSchema,
       required: true,
     },
-    answer: {
-      type: String,
-      required: true,
-    },
     role: {
       type: String,
       enum: ['Admin','Customer'],
@@ -45,5 +41,5 @@ const userSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-const user = mongoose.model("user", userSchema);
-export default user;
+const User = mongoose.model("user", userSchema);
+export default User;
