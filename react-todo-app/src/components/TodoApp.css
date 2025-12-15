@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-div{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.inner-div input{
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(252, 244, 244);
+    color: black;
+}
+
+.todo-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.list-todo{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(252, 244, 244);
+    color: black;
+}
